@@ -3,14 +3,17 @@ from bs4 import BeautifulSoup
 import hashlib
 import shutil
 import os
+import csv
 
 URL = "https://www.billboard.com/charts/hot-100"
 PARSER = 'lxml'
 IMAGE_DIR = './images/'
 
+
 def hash_img_name(url):
-    """ crates a unique hash based on a url of an image"""
+    """ crates a unique filename based on a url of an image"""
     return hashlib.sha1(url.encode('utf8')).hexdigest() + '.jpg'
+
 
 def download_image(url, destination):
     """
@@ -92,16 +95,29 @@ def get_item(soup):
     except Exception as e:
         print(f'image download failed for {item_data["song"]}, {item_data["artist"]}! ', e)
 
-
     print('done!')
     return item_data
 
 
-def main():
-    soup = get_page(URL, PARSER)
-    some_item = get_item(soup)
-    print(some_item)
+def get_week(soup):
+    """ get's the week of the current chart """
+    week = soup.find('button', class_='date-selector__button button--link').text
+    week = week.strip('\n').strip(' ').strip('\n')
+    return week
 
+
+def get_weekly_chart():
+    pass
+
+
+def main():
+    pass
 
 if __name__ == '__main__':
-    main()
+    soup = get_page(URL, PARSER)
+
+    some_test_item = get_item(soup)
+    print(some_test_item)
+
+    week = get_week(soup)
+    print(week)
