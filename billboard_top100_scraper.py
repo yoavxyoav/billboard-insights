@@ -10,6 +10,14 @@ PARSER = 'lxml'
 IMAGE_DIR = './images/'
 
 
+def int_if_int(i):
+    """ takes some type and returns it as int only if can actually be converted to int. Otherwise, returns None"""
+    try:
+        return int(i)
+    except ValueError as e:
+        return None
+
+
 def hash_img_name(url):
     """ crates a unique filename based on a url of an image"""
     return hashlib.sha1(url.encode('utf8')).hexdigest() + '.jpg'
@@ -40,7 +48,7 @@ def download_image(url, destination):
         print('something went wrong')
 
 
-def get_page(url, parser):
+def get_page_soup(url, parser):
     """
     grabs a web page and returns a bs4 object
 
@@ -63,7 +71,25 @@ def get_page(url, parser):
     return soup
 
 
-def get_item(soup):
+def grab_data(item):
+    """ collecting each item's data from left to right, as it appears on the site """
+    item_data = {
+        'rank': int(item.find('span', class_='chart-element__rank__number').text),
+        'delta': int_if_int(item.find('span', class_='chart-element__information__delta__text text--default').text),
+        'song': item.find('span', class_='chart-element__information__song').text,
+        'artist': item.find('span', class_='chart-element__information__artist').text,
+        'last_pos': int(item.find('span', class_='chart-element__meta text--center color--secondary text--last').text),
+        'peak': int(item.find('span', class_='chart-element__meta text--center color--secondary text--peak').text),
+        'duration': int(item.find('span', class_='chart-element__meta text--center color--secondary text--week').text),
+        'img_url': item.find('span', class_='chart-element__image flex--no-shrink')['style'][23:-3]
+    }
+
+    item_data['img_filename'] = hash_img_name(item_data['img_url'])
+
+    return item_data
+
+
+def get_single_item(soup):
     """
     grabs a single item from a soup object
     @param soup: a soup object or a complete web page
@@ -74,20 +100,8 @@ def get_item(soup):
 
     # a dictionary that holds the data of a single item
     print('collecting an item... ')
-    item_data = {}
 
-    # collecting each item's data from left to right, as it appears on the site
-    item_data['rank'] = int(item.find('span', class_='chart-element__rank__number').text)
-    item_data['song'] = item.find('span', class_='chart-element__information__song').text
-    item_data['artist'] = item.find('span', class_='chart-element__information__artist').text
-    item_data['last_pos'] = int(
-        item.find('span', class_='chart-element__meta text--center color--secondary text--last').text)
-    item_data['peak'] = int(
-        item.find('span', class_='chart-element__meta text--center color--secondary text--peak').text)
-    item_data['duration'] = int(
-        item.find('span', class_='chart-element__meta text--center color--secondary text--week').text)
-    item_data['img_url'] = item.find('span', class_='chart-element__image flex--no-shrink')['style'][23:-3]
-    item_data['img_filename'] = hash_img_name(item_data['img_url'])
+    item_data = grab_data(item)
 
     try:
         print(f'getting image from {item_data["img_url"]} ')
@@ -99,6 +113,16 @@ def get_item(soup):
     return item_data
 
 
+def get_weekly_chart(soup):
+    """ gets the entire weekly chart (all items) """
+    print(f'fetching entire chart for week {get_week(soup)} ...')
+    try:
+        items = soup.findall('li', class_='chart-list__element')
+        print('got all items bs4 objects')
+    except:
+        print('something went wrong!')
+
+
 def get_week(soup):
     """ get's the week of the current chart """
     week = soup.find('button', class_='date-selector__button button--link').text
@@ -106,17 +130,14 @@ def get_week(soup):
     return week
 
 
-def get_weekly_chart():
-    pass
-
-
 def main():
     pass
 
-if __name__ == '__main__':
-    soup = get_page(URL, PARSER)
 
-    some_test_item = get_item(soup)
+if __name__ == '__main__':
+    soup = get_page_soup(URL, PARSER)
+
+    some_test_item = get_single_item(soup)
     print(some_test_item)
 
     week = get_week(soup)
