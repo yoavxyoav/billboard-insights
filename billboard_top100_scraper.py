@@ -78,7 +78,7 @@ def grab_data(item):
         'delta': int_if_int(item.find('span', class_='chart-element__information__delta__text text--default').text),
         'song': item.find('span', class_='chart-element__information__song').text,
         'artist': item.find('span', class_='chart-element__information__artist').text,
-        'last_pos': int(item.find('span', class_='chart-element__meta text--center color--secondary text--last').text),
+        'last_pos': int_if_int(item.find('span', class_='chart-element__meta text--center color--secondary text--last').text),
         'peak': int(item.find('span', class_='chart-element__meta text--center color--secondary text--peak').text),
         'duration': int(item.find('span', class_='chart-element__meta text--center color--secondary text--week').text),
         'img_url': item.find('span', class_='chart-element__image flex--no-shrink')['style'][23:-3]
@@ -89,16 +89,16 @@ def grab_data(item):
     return item_data
 
 
-def get_single_item(soup):
+def get_first_item(soup):
     """
-    grabs a single item from a soup object
+    grabs a first item from a soup object
     @param soup: a soup object or a complete web page
-    @return: a dictionary with a data of a single item
+    @return: a dictionary with a data of a first item
     """
-    # a single bs4 item
+    # a first bs4 item
     item = soup.find('li', class_='chart-list__element')
 
-    # a dictionary that holds the data of a single item
+    # a dictionary that holds the data of a first item
     print('collecting an item... ')
 
     item_data = grab_data(item)
@@ -117,28 +117,60 @@ def get_weekly_chart(soup):
     """ gets the entire weekly chart (all items) """
     print(f'fetching entire chart for week {get_week(soup)} ...')
     try:
-        items = soup.findall('li', class_='chart-list__element')
+        items = soup.findAll('li', class_='chart-list__element display--flex')
         print('got all items bs4 objects')
-    except:
-        print('something went wrong!')
+    except Exception as e:
+        print('something went wrong!', e)
+
+    all_page_items = []  # storing all the items for a page
+    for item in items:
+        item_data = grab_data(item)
+        print(f"got data for {item_data['rank']}) {item_data['song']} - {item_data['artist']}")
+
+        try:
+            print(f'getting image from {item_data["img_url"]} ')
+            download_image(item_data['img_url'], IMAGE_DIR)
+        except Exception as e:
+            print(f'image download failed for {item_data["song"]}, {item_data["artist"]}! ', e)
+
+        print('done!')
+
+        all_page_items.append(item_data)
+
+    return all_page_items
 
 
 def get_week(soup):
     """ get's the week of the current chart """
+    print('getting the very first item from the very last week')
     week = soup.find('button', class_='date-selector__button button--link').text
     week = week.strip('\n').strip(' ').strip('\n')
     return week
 
 
-def main():
-    pass
+# def main():
+#     soup = get_page_soup(URL, PARSER)
+#
+#     some_test_item = get_first_item(soup)
+#     print(some_test_item)
+#
+#     week = get_week(soup)
+#     print(week, '\n')
+#
+#     get_weekly_chart(soup)
 
 
 if __name__ == '__main__':
+    # main()
     soup = get_page_soup(URL, PARSER)
 
-    some_test_item = get_single_item(soup)
+    some_test_item = get_first_item(soup)
     print(some_test_item)
 
     week = get_week(soup)
-    print(week)
+    print(week, '\n')
+
+    weekly_items = get_weekly_chart(soup)
+
+    for item in weekly_items:
+        print(item)
