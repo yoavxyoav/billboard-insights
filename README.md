@@ -28,7 +28,7 @@ We developed the scraper incrementally going through the following steps:
 
 1. Scraping only one table-item from the first week `get_first_item()`.
 2. Scarping only one weekly table (an entire chart) using `get_weekly_chart()`.
-3. Scraping all the weekly charts until the very first date using `get_all_time()`.
+3. Scraping all the weekly charts going back from most recent to the very first date using `get_all_time()`.
 
 Also used:
 4. A utility function `grab_data()` is going over each item (i.e, a row in a table) and crates a dictionary from collected values.
