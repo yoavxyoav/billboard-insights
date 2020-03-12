@@ -18,7 +18,7 @@ What do you need to know in order to get the script running?
 
 ## Prerequisites
 
-Make sure packages are all installed (as per `requirements.txt`) 
+Make sure packages are all installed (as per `requirements.txt`). Only do this in a dedicated environment!
 
 ---
 
