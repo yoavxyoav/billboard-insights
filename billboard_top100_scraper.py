@@ -9,8 +9,9 @@ import csv
 
 PARSER = 'lxml'
 IMAGE_DIR = './images/'
-URL = "https://www.billboard.com/charts/hot-100/"
-FIRST_WEEK = '2020-03-14'
+BASE_URL = "https://www.billboard.com/charts/hot-100/"
+MOST_RECENT_WEEK = '2020-03-14'
+FIRST_WEEK_EVER = '1958-08-04'
 
 
 def int_if_int(i):
@@ -27,6 +28,7 @@ def hash_img_name(url):
 
 
 def download_image(url, destination):
+    # TODO: Check why only first 5 images are downloading and not the rest
     """
     downloads an image and saves it to destination folder. The file name is the original url's hash.
     @param url: image source url
@@ -60,8 +62,8 @@ def get_page_soup(url, parser):
     @return: a bs4 object
     """
     try:
-        print(f'Fetching page from {URL}')
-        r = requests.get(URL)
+        print(f'Fetching page from {url}')
+        r = requests.get(url)
         print(f"Successful! {r}")
     except requests.exceptions.RequestException:
         print(f"something went wrong... ({r})")
@@ -154,18 +156,40 @@ def get_week(soup):
 
 def get_all_time():
     """scrapes everything - all tables from all weeks"""
-    all_time = []
-    for week in generate_week(FIRST_WEEK):
-        soup = get_page_soup(URL + week, PARSER)
-        all_time.append(get_weekly_chart(soup))
-    return all_time
+    #TODO: have the file opened in a way that we can open it while scraping, not only after it ends.
+    weeks = generate_week(MOST_RECENT_WEEK)
+    data_file = open('./all_time_data.txt', 'w')
+
+    try:
+        for current_week in weeks:
+            print(f'current week url: {BASE_URL + current_week}')
+            week = get_page_soup(BASE_URL + current_week, PARSER)
+            current_week_data = get_weekly_chart(week)
+
+            # printing current week data to screen
+            print(f'Data for <----------->  <----------->  <----------->  <----------->  <-----------> {current_week}')
+            for item in current_week_data:
+                print(item)
+
+            # writing current week data to file
+            data_file.write('\n\n\n + ' + current_week + '\n')
+            for item in current_week_data:
+                data_file.writelines(str(item) + '\n')
+            # data_file.write(str(current_week_data))
+
+        data_file.close()
+    except:
+        print('something went wrong while running get_all_time() !!!')
+        exit(1)
+    return 0
 
 
 def generate_week(most_recent_date):
-    """given a starting date, yields dates going backwards one week each time"""
+    """given a starting date, yields dates going backwards one week each time.
+    Runs until the first ever published billboard"""
     current_week = datetime.datetime.strptime(most_recent_date, '%Y-%m-%d')
     first_week = True
-    while True:
+    while current_week >= datetime.datetime.strptime(FIRST_WEEK_EVER, '%Y-%m-%d'):
         if not first_week:
             current_week -= datetime.timedelta(7)
         first_week = False
@@ -174,7 +198,7 @@ def generate_week(most_recent_date):
 
 
 # def main():
-#     soup = get_page_soup(URL, PARSER)
+#     soup = get_page_soup(BASE_URL, PARSER)
 #
 #     some_test_item = get_first_item(soup)
 #     print(some_test_item)
@@ -188,20 +212,20 @@ def generate_week(most_recent_date):
 if __name__ == '__main__':
     # main()
 
-    # scraping the most recent page (which is the default week for the main url)
-    soup = get_page_soup(URL, PARSER)
+    # # scraping the most recent page (which is the default week for the main url)
+    # soup = get_page_soup(BASE_URL, PARSER)
 
-    # for testing: getting the first item of the most recent week
-    some_test_item = get_first_item(soup)
-    print(some_test_item)
+    # # for testing: getting the first item of the most recent week
+    # some_test_item = get_first_item(soup)
+    # print(some_test_item)
 
-    week = get_week(soup)
-    print(week, '\n')
+    # week = get_week(soup)
+    # print(week, '\n')
 
-    # for testing: scraping the entire first week
-    weekly_items = get_weekly_chart(soup)
-    for item in weekly_items:
-        print(item)
+    # # scraping the entire first week
+    # weekly_items = get_weekly_chart(soup)
+    # for item in weekly_items:
+    #     print(item)
 
     # the real deal: scraping all time, from most recent week to the beginning
     all_time_chart = get_all_time()
