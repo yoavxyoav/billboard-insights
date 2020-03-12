@@ -1,45 +1,41 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+# Billboard Scraper
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+This is our initial scraper in a larger scale project that aspires to obtain insights from the hits charts on billboard.com
+ 
+## Getting started
+
+What do you need to know in order to get the script running?
+
+
+
+1. Upcoming saturday's date in a YYYY-MM-DD format (e.g 2020-03-14)
+2. Update the script const `MOST_RECENT_WEEK` with this date as a string (will be passed via command line argument in future version).
+3. Use `get_all_time()` to get things moving.
+
+ 
+---
+
+## Prerequisites
+
+Make sure packages are all installed (as per `requirements.txt`) 
 
 ---
 
-## Edit a file
+## Development strategy
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+We developed the scraper incrementally going through the following steps:
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+1. Scraping only one table-item from the first week `get_first_item()`.
+2. Scarping only one weekly table (an entire chart) using `get_weekly_chhrt()`.
+3. Scraping all the weekly charts until the very first date using `get_all_time()`.
 
----
+Also used:
+4. A utility function `grab_data()` is going over each item (i.e, a row in a table) and crates a dictionary from collected values.
+5. A generator `generate_week()` that calculates the weeks according `MOST_RECENT_WEEK` and `FIRSRT_WEEK_EVER`.  
 
-## Create a file
+Tried to implement but decided to wait for next stages:
+1. A function `doanload_image()` that downloads thumbnails of collected items as a nice eye-candy in future views. 
 
-Next, you’ll add a new file to this repository.
-
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
-
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
-
----
-
-## Clone a repository
-
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
-
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+## Acknowledgements
+The data is the possession of buillboard.com and is scraped for educational purposes only. 

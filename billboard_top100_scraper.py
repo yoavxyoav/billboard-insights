@@ -148,14 +148,14 @@ def get_weekly_chart(soup):
 
 def get_week(soup):
     """ get's the week of a given chart soup-object. returns a string"""
-    print('getting the very first item from the very last week')
+    print('figuring out the week')
     week = soup.find('button', class_='date-selector__button button--link').text
     week = week.strip('\n').strip(' ').strip('\n')
     return week
 
 
 def get_all_time():
-    """scrapes everything - all tables from all weeks"""
+    """scrapes everything - all tables from all weeks. Outputs to all_time_data.txt"""
     #TODO: have the file opened in a way that we can open it while scraping, not only after it ends.
     weeks = generate_week(MOST_RECENT_WEEK)
     data_file = open('./all_time_data.txt', 'w')
@@ -172,7 +172,7 @@ def get_all_time():
                 print(item)
 
             # writing current week data to file
-            data_file.write('\n\n\n + ' + current_week + '\n')
+            data_file.write('\n\n\n' + current_week + '\n')
             for item in current_week_data:
                 data_file.writelines(str(item) + '\n')
             # data_file.write(str(current_week_data))
@@ -197,20 +197,8 @@ def generate_week(most_recent_date):
         yield current_week_str
 
 
-# def main():
-#     soup = get_page_soup(BASE_URL, PARSER)
-#
-#     some_test_item = get_first_item(soup)
-#     print(some_test_item)
-#
-#     week = get_week(soup)
-#     print(week, '\n')
-#
-#     get_weekly_chart(soup)
-
 
 if __name__ == '__main__':
-    # main()
 
     # # scraping the most recent page (which is the default week for the main url)
     # soup = get_page_soup(BASE_URL, PARSER)
