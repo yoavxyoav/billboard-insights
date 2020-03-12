@@ -3,11 +3,14 @@ from bs4 import BeautifulSoup
 import hashlib
 import shutil
 import os
+import datetime
+
 import csv
 
-URL = "https://www.billboard.com/charts/hot-100"
 PARSER = 'lxml'
 IMAGE_DIR = './images/'
+URL = "https://www.billboard.com/charts/hot-100/"
+FIRST_WEEK = '2020-03-14'
 
 
 def int_if_int(i):
@@ -78,7 +81,8 @@ def grab_data(item):
         'delta': int_if_int(item.find('span', class_='chart-element__information__delta__text text--default').text),
         'song': item.find('span', class_='chart-element__information__song').text,
         'artist': item.find('span', class_='chart-element__information__artist').text,
-        'last_pos': int_if_int(item.find('span', class_='chart-element__meta text--center color--secondary text--last').text),
+        'last_pos': int_if_int(
+            item.find('span', class_='chart-element__meta text--center color--secondary text--last').text),
         'peak': int(item.find('span', class_='chart-element__meta text--center color--secondary text--peak').text),
         'duration': int(item.find('span', class_='chart-element__meta text--center color--secondary text--week').text),
         'img_url': item.find('span', class_='chart-element__image flex--no-shrink')['style'][23:-3]
@@ -91,7 +95,7 @@ def grab_data(item):
 
 def get_first_item(soup):
     """
-    grabs a first item from a soup object
+    grabs a first item from a soup object. Good for quick testing purposes and incremental development.
     @param soup: a soup object or a complete web page
     @return: a dictionary with a data of a first item
     """
@@ -114,7 +118,7 @@ def get_first_item(soup):
 
 
 def get_weekly_chart(soup):
-    """ gets the entire weekly chart (all items) """
+    """ gets the entire weekly chart (all items). returns a list of dicts, each dict is a song-item  """
     print(f'fetching entire chart for week {get_week(soup)} ...')
     try:
         items = soup.findAll('li', class_='chart-list__element display--flex')
@@ -141,11 +145,32 @@ def get_weekly_chart(soup):
 
 
 def get_week(soup):
-    """ get's the week of the current chart """
+    """ get's the week of a given chart soup-object. returns a string"""
     print('getting the very first item from the very last week')
     week = soup.find('button', class_='date-selector__button button--link').text
     week = week.strip('\n').strip(' ').strip('\n')
     return week
+
+
+def get_all_time():
+    """scrapes everything - all tables from all weeks"""
+    all_time = []
+    for week in generate_week(FIRST_WEEK):
+        soup = get_page_soup(URL + week, PARSER)
+        all_time.append(get_weekly_chart(soup))
+    return all_time
+
+
+def generate_week(most_recent_date):
+    """given a starting date, yields dates going backwards one week each time"""
+    current_week = datetime.datetime.strptime(most_recent_date, '%Y-%m-%d')
+    first_week = True
+    while True:
+        if not first_week:
+            current_week -= datetime.timedelta(7)
+        first_week = False
+        current_week_str = current_week.strftime('%Y-%m-%d')
+        yield current_week_str
 
 
 # def main():
@@ -162,15 +187,22 @@ def get_week(soup):
 
 if __name__ == '__main__':
     # main()
+
+    # scraping the most recent page (which is the default week for the main url)
     soup = get_page_soup(URL, PARSER)
 
+    # for testing: getting the first item of the most recent week
     some_test_item = get_first_item(soup)
     print(some_test_item)
 
     week = get_week(soup)
     print(week, '\n')
 
+    # for testing: scraping the entire first week
     weekly_items = get_weekly_chart(soup)
-
     for item in weekly_items:
         print(item)
+
+    # the real deal: scraping all time, from most recent week to the beginning
+    all_time_chart = get_all_time()
+    print(all_time_chart)
