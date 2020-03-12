@@ -27,7 +27,7 @@ Make sure packages are all installed (as per `requirements.txt`)
 We developed the scraper incrementally going through the following steps:
 
 1. Scraping only one table-item from the first week `get_first_item()`.
-2. Scarping only one weekly table (an entire chart) using `get_weekly_chhrt()`.
+2. Scarping only one weekly table (an entire chart) using `get_weekly_chart()`.
 3. Scraping all the weekly charts until the very first date using `get_all_time()`.
 
 Also used:
