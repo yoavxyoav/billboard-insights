@@ -4,6 +4,7 @@ import hashlib
 import shutil
 import os
 import datetime
+import time
 
 import csv
 
@@ -39,7 +40,7 @@ def download_image(url, destination):
         try:
             os.mkdir(IMAGE_DIR)
         except Exception as e:
-            print('count not create image directory! ', e)
+            print('could not create image directory! ', e)
     try:
         print('requesting image... ', end='')
         img = requests.get(url, stream=True)
@@ -63,7 +64,13 @@ def get_page_soup(url, parser):
     """
     try:
         print(f'Fetching page from {url}')
-        r = requests.get(url)
+        trial = 0
+        while True:
+            trial += 1
+            print(f'requesting page, attempt #{trial} --- ', end='')
+            r = requests.get(url)
+            if r.status_code == 200:
+                break
         print(f"Successful! {r}")
     except requests.exceptions.RequestException:
         print(f"something went wrong... ({r})")
@@ -175,8 +182,8 @@ def get_all_time():
             data_file.write('\n\n\n' + current_week + '\n')
             for item in current_week_data:
                 data_file.writelines(str(item) + '\n')
-            # data_file.write(str(current_week_data))
 
+            time.sleep(3)
         data_file.close()
     except:
         print('something went wrong while running get_all_time() !!!')
