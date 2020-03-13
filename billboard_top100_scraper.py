@@ -36,6 +36,9 @@ def download_image(url, destination):
     @param destination: folder to save the image to
     @return: 0 if everything runs properly
     """
+    if url == '':
+        print('no image url, aborting download')
+        return
     if not os.path.isdir(IMAGE_DIR):
         try:
             os.mkdir(IMAGE_DIR)
@@ -169,7 +172,7 @@ def get_all_time():
 
     try:
         for current_week in weeks:
-            print(f'current week url: {BASE_URL + current_week}')
+            print(f'current week: {current_week}')
             week = get_page_soup(BASE_URL + current_week, PARSER)
             current_week_data = get_weekly_chart(week)
 
