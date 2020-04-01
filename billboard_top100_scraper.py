@@ -5,6 +5,7 @@ import shutil
 import os
 import datetime
 import time
+from sys import exit
 
 import csv
 
@@ -93,8 +94,7 @@ def grab_data(item):
         'delta': int_if_int(item.find('span', class_='chart-element__information__delta__text text--default').text),
         'song': item.find('span', class_='chart-element__information__song').text,
         'artist': item.find('span', class_='chart-element__information__artist').text,
-        'last_pos': int_if_int(
-            item.find('span', class_='chart-element__meta text--center color--secondary text--last').text),
+        'last_pos': int_if_int(item.find('span', class_='chart-element__meta text--center color--secondary text--last').text),
         'peak': int(item.find('span', class_='chart-element__meta text--center color--secondary text--peak').text),
         'duration': int(item.find('span', class_='chart-element__meta text--center color--secondary text--week').text),
         'img_url': item.find('span', class_='chart-element__image flex--no-shrink')['style'][23:-3]
@@ -208,6 +208,7 @@ def generate_week(most_recent_date):
 
 
 
+
 if __name__ == '__main__':
 
     # # scraping the most recent page (which is the default week for the main url)
@@ -226,5 +227,9 @@ if __name__ == '__main__':
     #     print(item)
 
     # the real deal: scraping all time, from most recent week to the beginning
-    all_time_chart = get_all_time()
-    print(all_time_chart)
+
+
+    # all_time_chart = get_all_time()
+    # print(all_time_chart)
+
+    get_weekly_chart()

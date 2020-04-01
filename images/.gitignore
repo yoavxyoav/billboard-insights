@@ -64,7 +64,3 @@
 *.3dm
 *.max
 
-!/images/
-*.zip
-
-all_time_data*
