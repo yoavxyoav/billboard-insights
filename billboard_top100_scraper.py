@@ -232,4 +232,5 @@ if __name__ == '__main__':
     # all_time_chart = get_all_time()
     # print(all_time_chart)
 
-    get_weekly_chart()
+    first_week = get_weekly_chart(get_page_soup(url=BASE_URL, parser=PARSER))
+    print(first_week)
