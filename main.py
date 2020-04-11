@@ -43,15 +43,10 @@ def main():
 
     # the real deal: scraping all time, from most recent week to the beginning
 
-    scraper = Scraper()
-    scraper.get_time_range()
-
-
-    # scraper = Scraper()
-    # first_week = scraper.get_weekly_chart(scraper.get_page_soup(url=BASE_URL))
-    # print(first_week.get_chart())
-
-
-
+    scraper = Scraper(auto_most_recent=True)
+    # scraper.get_time_range()
+    # scraper.get_update_from_time()
+    chart = scraper.get_specific_week('2010-09-14')
+    print(chart.chart)
 if __name__ == '__main__':
     main()

@@ -10,12 +10,42 @@ What do you need to know in order to get the script running?
 
 
 1. Upcoming saturday's date in a YYYY-MM-DD format (e.g 2020-03-14)
-2. Update the script const `MOST_RECENT_WEEK` with this date as a string (will be passed via command line argument in future version).
-3. Use `get_all_time()` to get things moving.
+2. Take a look at `./config/scraper_config.py` 
+3. Update the script const `MOST_RECENT_WEEK` with this date as a string (will be passed via command line argument in future version).
+4. import the `Scraper` class from the `billboard_scraper` module
+5. Create a scraper object (i.e: `scraper = Scraper()`)
+6. Use `get_all_time()` to scrape everything.
 
  
 ---
+## Usage examples:
 
+It is possible to either instantiate the Scraper with given dates or without:
+
+both
+
+`scraper = Scraper()` 
+
+and
+
+`scraper = Scraper('2010-04-04', '2015-01-15')`
+
+are ok.
+
+The first one is using the default time range values (as in `parser_config.py`), while the second is customized.
+
+### After instantiation:
+
+* `scraper.get_time_range()` will get the time range of specified (or dafault) values.
+* `scraper.get_all_time()` is hardcoded to get all charts from all time (according to config default), ignoring the values
+ of `start_week` and `end_week` that were passed during instantiation.
+*  `scraper.get_update_from_time()` is scraping starting from `start_week`. Works in conjunction with the Scraper's 
+`auto_most_recent=True` argument so that the scraper automatically assigns the very last weekly chart's date on billboard.com
+to `end_eeek`.
+* `scraper.get_specific_week()` does as it says. Must pass an argument (ignores instantiation values). 
+Note that if the given date is within a billboard.com chart week range, the week that encompases the given date will be 
+fetched. E.g, asking for 2010-09-14 will get the chart that is associated with the date 2010-09-18. 
+---
 ## Prerequisites
 
 Make sure packages are all installed (as per `requirements.txt`). Only do this in a dedicated environment!

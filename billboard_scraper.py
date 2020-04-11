@@ -60,10 +60,9 @@ def download_image(url, destination):
         print('something went wrong')
 
 
-
-
 class Chart:
     """Class of a weekly chart. The chart is a list of dicts, each dict is a row item from a weekly billboard.com chart."""
+
     def __init__(self, week, chart):
         self.chart = chart
         self.week = week
@@ -110,11 +109,36 @@ a        """
         return self.week
 
 
+def generate_week(start_week, end_week):
+    """
+    Given a starting date, yields dates going backwards one week each time.
+    Runs until the first ever published billboard
+    @param end_week: the week from which previous week would be calculated backward from
+    @param start_week: the week to stop once reached (going backwards from end_week).
+    @return: None
+
+    """
+    current_week = datetime.datetime.strptime(end_week, '%Y-%m-%d')
+    first_week = True
+    while current_week >= datetime.datetime.strptime(start_week, '%Y-%m-%d'):
+        if not first_week:
+            current_week -= datetime.timedelta(7)
+        first_week = False
+        current_week_str = current_week.strftime('%Y-%m-%d')
+        yield current_week_str
+    return None
+
 
 class Scraper:
-    def __init__(self, start_week=FIRST_WEEK_EVER, end_week=MOST_RECENT_WEEK):
+    def __init__(self, start_week=FIRST_WEEK_EVER, end_week=MOST_RECENT_WEEK, auto_most_recent=False):
         self.start_week = start_week
-        self.end_week = end_week
+        if not auto_most_recent:
+            self.end_week = end_week
+        else:
+            self.end_week = self.figure_out_most_recent_week()
+
+        if auto_most_recent == True:
+            self.figure_out_most_recent_week()
 
     def get_page_soup(self, url):
         """
@@ -155,32 +179,17 @@ class Scraper:
             'delta': int_if_int(item.find('span', class_='chart-element__information__delta__text text--default').text),
             'song': item.find('span', class_='chart-element__information__song').text,
             'artist': item.find('span', class_='chart-element__information__artist').text,
-            'last_pos': int_if_int(item.find('span', class_='chart-element__meta text--center color--secondary text--last').text),
+            'last_pos': int_if_int(
+                item.find('span', class_='chart-element__meta text--center color--secondary text--last').text),
             'peak': int(item.find('span', class_='chart-element__meta text--center color--secondary text--peak').text),
-            'duration': int(item.find('span', class_='chart-element__meta text--center color--secondary text--week').text),
+            'duration': int(
+                item.find('span', class_='chart-element__meta text--center color--secondary text--week').text),
             'img_url': item.find('span', class_='chart-element__image flex--no-shrink')['style'][23:-3]
         }
 
         item_data['img_filename'] = hash_img_name(item_data['img_url'])
 
         return item_data
-
-    def generate_week(self, start_week, end_week):
-        """
-        Given a starting date, yields dates going backwards one week each time.
-        Runs until the first ever published billboard
-        @param end_week: the week from which previous week would be calculated backward from
-        @return: None
-        """
-        current_week = datetime.datetime.strptime(end_week, '%Y-%m-%d')
-        first_week = True
-        while current_week >= datetime.datetime.strptime(start_week, '%Y-%m-%d'):
-            if not first_week:
-                current_week -= datetime.timedelta(7)
-            first_week = False
-            current_week_str = current_week.strftime('%Y-%m-%d')
-            yield current_week_str
-        return None
 
     def get_first_item(self, soup):
         """
@@ -205,13 +214,13 @@ class Scraper:
         print('done!')
         return item_data
 
-    def get_weekly_chart(self, soup):
+    def weekly_chart_from_soup(self, soup):
         """
         Gets the entire weekly chart (all items).
         @param soup: a soup object of a page containing a billboard chart
         @return: a Chart object
         """
-        week = self.get_week(soup)
+        week = self.get_week_string(soup)
         print(f'fetching entire chart for week {week} ...')
         try:
             items = soup.findAll('li', class_='chart-list__element display--flex')
@@ -240,7 +249,7 @@ class Scraper:
         return chart
 
     @staticmethod
-    def get_week(soup):
+    def get_week_string(soup):
         """
         Get's the week of a given chart soup-object. returns a string
         @param soup: soup object of a billboard.com chart page
@@ -255,29 +264,36 @@ class Scraper:
         """
         Scrapes everything - all tables from all weeks as defined by `start_week` and `end_week` (defaults in
         parser_config.py).
-        Outputs to file as defined by ALL_TIME_DATA (default: all_time_data.txt)
+        Outputs to file as defined by SONG_DATA (default: all_time_data.txt)
         @return: a dictionary of all weekly chart within the chosen time range as {week: chart} key-value pairs.
         """
-        if start_week == None:
+        if start_week is None:
             start_week = self.start_week
-        if end_week == None:
+        if end_week is None:
             end_week = self.end_week
 
-        if end_week==MOST_RECENT_WEEK and start_week==FIRST_WEEK_EVER:
-            print('No `start_weekd` and `end_weed` arguments passed when creating the Scraper object - using default values')
+        if end_week == MOST_RECENT_WEEK and start_week == FIRST_WEEK_EVER:
+            print('Scraper is getting time range, but since no `start_weekd` and `end_weed` arguments passed when\
+             creating the Scraper object, it will be using default values')
 
         print(f'getting charts from {self.start_week} to {self.end_week}')
-        weeks = self.generate_week(start_week, end_week)
+        weeks = generate_week(start_week, end_week)
 
-        data_file = open(ALL_TIME_DATA, 'w')
-
+        now = datetime.datetime.now().strftime("%m%d%Y%H%M%S")
+        try:
+            print(f'Creating data directory at {DATA_DIR}')
+            os.mkdir(DATA_DIR)
+        except FileExistsError:
+            print('Data directory already exists')
+        data_file = open(f'{DATA_DIR}{now}_{start_week}_{end_week}_{SONG_DATA_FILE}', 'w')
+        print(f'Writing data to {SONG_DATA_FILE}')
         time_range_charts = {}
 
         try:
             for current_week in weeks:
                 print(f'current week: {current_week}')
                 weekly_soup = self.get_page_soup(BASE_URL + current_week)
-                current_week_chart = self.get_weekly_chart(weekly_soup)
+                current_week_chart = self.weekly_chart_from_soup(weekly_soup)
                 current_week_list = current_week_chart.get_chart()
 
                 # appending weekly Chart object to time_range_charts
@@ -285,7 +301,7 @@ class Scraper:
 
                 # printing current week data to screen
                 print('\t\t\t<-----------*-----------*-----------*-----------*----------->')
-                print(f'\t\t\t\t\tData for {current_week}')
+                print(f'\t\t\t\t\t\tData for {current_week}')
                 print('\t\t\t<-----------*-----------*-----------*-----------*----------->')
                 for item in current_week_list:
                     print(item)
@@ -305,7 +321,6 @@ class Scraper:
 
         return time_range_charts
 
-
     def get_all_time(self):
         """
         Hard coded method go get all time charts from the first week ever on billboard.com until most recent week
@@ -320,3 +335,45 @@ class Scraper:
             raise Exception
 
         return all_time_charts
+
+    def figure_out_most_recent_week(self, url=BASE_URL):
+        """
+        This function runs if __init__() parameter auto_most_recent is set to True (it is False by default).
+        The method retrieves the week from BASE_URL, and overrides the constant `MOST_RECENT_WEEK` from the
+        scraper_config with that week.
+        :param url: by default it is: https://www.billboard.com/charts/hot-100 and probably should not be changed.
+        :return: string of most recent week with an available chart
+        """
+
+        website_formatted_date = self.get_week_string(self.get_page_soup(BASE_URL))
+        scraper_formatted_date = datetime.datetime.strptime(website_formatted_date, '%B %d, %Y').strftime('%Y-%m-%d')
+
+        return scraper_formatted_date
+
+    def get_update_from_time(self, start_week=None):
+        """
+        Get's the charts from a certain time point until MOST_RECENT_WEEK from scraper_config or until today if
+        auto_most_recent is set to True.
+        :param start_week: the week from which the update is starting.
+        :return: list of Chart objects
+        """
+        if start_week == None:
+            start_week = self.start_week
+
+        return self.get_time_range(start_week, self.end_week)
+
+    def get_specific_week(self, specific_week):
+        """
+        Get's a Chart of a specific single week.
+        :param specific_week: date string in the form of YYYY-MM-DD.
+        :return: Chart object
+        """
+        try:
+            weekly_soup = self.get_page_soup(BASE_URL + specific_week)
+            chart = self.weekly_chart_from_soup(weekly_soup)
+        except Exception as e:
+            print(f'There was an error getting specific week ({specific_week}) chart:', e)
+            traceback.print_exc()
+            exit(1)
+
+        return chart
