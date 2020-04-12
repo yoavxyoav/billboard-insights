@@ -42,7 +42,10 @@ def main():
 
     # the real deal: scraping all time, from most recent week to the beginning
 
-    scraper = Scraper(auto_most_recent=True)
+    query = Query()
+    scraper = Scraper(auto_most_recent=True, query=query)
+
+
     # 
     # scraper.get_time_range()
     # all_weeks = scraper.get_all_time()

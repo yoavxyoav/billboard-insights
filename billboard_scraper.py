@@ -139,15 +139,22 @@ def generate_week(start_week, end_week):
 
 
 class Scraper:
-    def __init__(self, start_week=FIRST_WEEK_EVER, end_week=MOST_RECENT_WEEK, auto_most_recent=False):
+    """A scraper object that handles scraping from billboard.com"""
+    def __init__(self, start_week=FIRST_WEEK_EVER, end_week=MOST_RECENT_WEEK, auto_most_recent=False, query=None):
+        """
+        An initializer for Scraper class
+        :param start_week: the week to scrape from (default value from scraper_config if nothing provided)
+        :param end_week: the week to scrape too (default value from scraper_config if nothing provided)
+        :param auto_most_recent: if True, checks the most recent week on billboard.com and overrides end_week.
+        :param query: SQL handler object.
+        """
         self.start_week = start_week
         if not auto_most_recent:
             self.end_week = end_week
         else:
             self.end_week = self.figure_out_most_recent_week()
 
-        if auto_most_recent == True:
-            self.figure_out_most_recent_week()
+        self.query = query
 
     def get_page_soup(self, url):
         """
@@ -199,6 +206,21 @@ class Scraper:
         item_data['img_filename'] = hash_img_name(item_data['img_url'])
 
         return item_data
+
+    def update_database(self, chart):
+        """
+        updating sql, if sql object was passed to Scraper()
+        :return: None
+        """
+
+        if self.query is not None:
+            try:
+                print('Inserting current week to database')
+                self.query.insert(chart.chart, chart.week)
+            except Exception as e:
+                print(f'There was something wrong with inserting week {current_week} to database:', e)
+                traceback.print_exc()
+                raise
 
     def get_first_item(self, soup):
         """
@@ -310,6 +332,16 @@ class Scraper:
                 # appending weekly Chart object to time_range_charts
                 time_range_charts[current_week] = current_week_chart
 
+                # updating sql, if sql object was passed to Scraper()
+                if self.query is not None:
+                    try:
+                        print('Inserting current week to database')
+                        self.query.insert(current_week_chart.chart, current_week_chart.week)
+                    except Exception as e:
+                        print(f'There was something wrong with inserting week {current_week} to database:', e)
+                        traceback.print_exc()
+                        raise
+
                 # printing current week data to screen
                 print('\t\t\t<-----------*-----------*-----------*-----------*----------->')
                 print(f'\t\t\t\t\t\tData for {current_week}')
@@ -382,6 +414,8 @@ class Scraper:
         try:
             weekly_soup = self.get_page_soup(BASE_URL + specific_week)
             chart = self.weekly_chart_from_soup(weekly_soup)
+            self.update_database(chart)
+
         except Exception as e:
             print(f'There was an error getting specific week ({specific_week}) chart:', e)
             traceback.print_exc()
