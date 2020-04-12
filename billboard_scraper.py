@@ -10,6 +10,15 @@ import traceback
 from config.scraper_config import *
 
 
+def date_string_to_numeric(string_week):
+    """
+    takes a date in a string formatting (September 14, 1981) and returns it as 1981-09-14
+    :param string_week: American style string date
+    :return: Numeric European style date
+    """
+    numeric_week = datetime.datetime.strptime(string_week, '%B %d, %Y').strftime('%Y-%m-%d')
+    return numeric_week
+
 def hash_img_name(url):
     """
     Crates a unique filename based on a hash of an image url
@@ -243,6 +252,8 @@ class Scraper:
             print('done!')
 
             all_page_items.append(item_data)
+
+        week = date_string_to_numeric(week)
 
         chart = Chart(week, all_page_items)
 
