@@ -1,4 +1,5 @@
 from billboard_scraper import Scraper
+from query_handler import Query
 
 def except_on_error(func):
     """
@@ -42,7 +43,7 @@ def main():
     # the real deal: scraping all time, from most recent week to the beginning
 
     scraper = Scraper(auto_most_recent=True)
-
+    # 
     # scraper.get_time_range()
     # all_weeks = scraper.get_all_time()
     # scraper.get_update_from_time()
