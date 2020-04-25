@@ -1,0 +1,618 @@
+
+
+
+2020-03-14
+{'rank': 1, 'delta': None, 'song': 'The Box', 'artist': 'Roddy Ricch', 'last_pos': 1, 'peak': 1, 'duration': 13, 'img_url': 'https://charts-static.billboard.com/img/2019/12/roddy-ricch-eqp-the-box-2k7-53x53.jpg', 'img_filename': 'd853550349726a31fcb7e3c5e98d32a1b32aa9c3.jpg'}
+{'rank': 2, 'delta': None, 'song': 'Life Is Good', 'artist': 'Future Featuring Drake', 'last_pos': 2, 'peak': 2, 'duration': 8, 'img_url': 'https://charts-static.billboard.com/img/2020/01/future-tsu-life-is-good-rko-53x53.jpg', 'img_filename': '265e340dce9d4cd0359ae6e2dd3c70d64e9226e7.jpg'}
+{'rank': 3, 'delta': 2, 'song': "Don't Start Now", 'artist': 'Dua Lipa', 'last_pos': 5, 'peak': 3, 'duration': 18, 'img_url': 'https://charts-static.billboard.com/img/2019/11/dua-lipa-eqf-dont-start-now-q9p-53x53.jpg', 'img_filename': '369f3ca71396704509b3c4703e6d3eb6431461f7.jpg'}
+{'rank': 4, 'delta': -1, 'song': 'Circles', 'artist': 'Post Malone', 'last_pos': 3, 'peak': 1, 'duration': 27, 'img_url': 'https://charts-static.billboard.com/img/2019/09/post-malone-tp6-circles-sb0-53x53.jpg', 'img_filename': '9429516cab5989575ee65590dcbcad8996c34cdb.jpg'}
+{'rank': 5, 'delta': None, 'song': 'Stupid Love', 'artist': 'Lady Gaga', 'last_pos': None, 'peak': 5, 'duration': 1, 'img_url': 'https://charts-static.billboard.com/img/2020/03/lady-gaga-lkc-stupid-love-arb-53x53.jpg', 'img_filename': 'c1cf87d6554a3038a1fdea5ca7fdaec5575cfe62.jpg'}
+{'rank': 6, 'delta': None, 'song': 'Roxanne', 'artist': 'Arizona Zervas', 'last_pos': 6, 'peak': 4, 'duration': 18, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 7, 'delta': 1, 'song': 'Blinding Lights', 'artist': 'The Weeknd', 'last_pos': 8, 'peak': 7, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 8, 'delta': -1, 'song': 'Dance Monkey', 'artist': 'Tones And I', 'last_pos': 7, 'peak': 4, 'duration': 22, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 9, 'delta': None, 'song': 'Memories', 'artist': 'Maroon 5', 'last_pos': 9, 'peak': 2, 'duration': 24, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 10, 'delta': 1, 'song': 'Intentions', 'artist': 'Justin Bieber Featuring Quavo', 'last_pos': 11, 'peak': 9, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 11, 'delta': -1, 'song': 'Someone You Loved', 'artist': 'Lewis Capaldi', 'last_pos': 10, 'peak': 1, 'duration': 43, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 12, 'delta': None, 'song': 'everything i wanted', 'artist': 'Billie Eilish', 'last_pos': 12, 'peak': 8, 'duration': 17, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 13, 'delta': 1, 'song': 'Hot Girl Bummer', 'artist': 'blackbear', 'last_pos': 14, 'peak': 13, 'duration': 25, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 14, 'delta': 1, 'song': 'Adore You', 'artist': 'Harry Styles', 'last_pos': 15, 'peak': 14, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 15, 'delta': 9, 'song': 'Woah', 'artist': 'Lil Baby', 'last_pos': 24, 'peak': 15, 'duration': 17, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 16, 'delta': 17, 'song': 'Say So', 'artist': 'Doja Cat', 'last_pos': 33, 'peak': 16, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 17, 'delta': -4, 'song': 'Heartless', 'artist': 'The Weeknd', 'last_pos': 13, 'peak': 1, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 18, 'delta': None, 'song': 'Heatin Up', 'artist': 'Lil Baby & Gunna', 'last_pos': None, 'peak': 18, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 19, 'delta': None, 'song': 'The Bones', 'artist': 'Maren Morris', 'last_pos': 19, 'peak': 18, 'duration': 24, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 20, 'delta': -4, 'song': '10,000 Hours', 'artist': 'Dan + Shay & Justin Bieber', 'last_pos': 16, 'peak': 4, 'duration': 22, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 21, 'delta': None, 'song': 'That Way', 'artist': 'Lil Uzi Vert', 'last_pos': None, 'peak': 21, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 22, 'delta': -5, 'song': "Ballin'", 'artist': 'Mustard & Roddy Ricch', 'last_pos': 17, 'peak': 11, 'duration': 33, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 23, 'delta': None, 'song': 'Commercial', 'artist': 'Lil Baby Featuring Lil Uzi Vert', 'last_pos': None, 'peak': 23, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 24, 'delta': -6, 'song': 'BOP', 'artist': 'DaBaby', 'last_pos': 18, 'peak': 11, 'duration': 23, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 25, 'delta': -3, 'song': 'My Oh My', 'artist': 'Camila Cabello Featuring DaBaby', 'last_pos': 22, 'peak': 22, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 26, 'delta': 20, 'song': 'Sum 2 Prove', 'artist': 'Lil Baby', 'last_pos': 46, 'peak': 16, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 27, 'delta': -6, 'song': 'Lose You To Love Me', 'artist': 'Selena Gomez', 'last_pos': 21, 'peak': 1, 'duration': 20, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 28, 'delta': None, 'song': 'Live Off My Closet', 'artist': 'Lil Baby Featuring Future', 'last_pos': None, 'peak': 28, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 29, 'delta': -3, 'song': 'You should be sad', 'artist': 'Halsey', 'last_pos': 26, 'peak': 26, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 30, 'delta': -5, 'song': 'High Fashion', 'artist': 'Roddy Ricch Featuring Mustard', 'last_pos': 25, 'peak': 20, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 31, 'delta': None, 'song': 'Emotionally Scarred', 'artist': 'Lil Baby', 'last_pos': None, 'peak': 31, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 32, 'delta': None, 'song': 'Si Veo A Tu Mama', 'artist': 'Bad Bunny', 'last_pos': None, 'peak': 32, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 33, 'delta': None, 'song': 'La Dificil', 'artist': 'Bad Bunny', 'last_pos': None, 'peak': 33, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 34, 'delta': -5, 'song': 'Falling', 'artist': 'Trevor Daniel', 'last_pos': 29, 'peak': 25, 'duration': 16, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 35, 'delta': -8, 'song': 'Good As Hell', 'artist': 'Lizzo', 'last_pos': 27, 'peak': 3, 'duration': 28, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 36, 'delta': 63, 'song': 'Vete', 'artist': 'Bad Bunny', 'last_pos': 99, 'peak': 33, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 37, 'delta': -6, 'song': 'No Guidance', 'artist': 'Chris Brown Featuring Drake', 'last_pos': 31, 'peak': 5, 'duration': 39, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 38, 'delta': None, 'song': 'PTSD', 'artist': 'G Herbo Featuring Chance The Rapper, Juice WRLD & Lil Uzi Vert', 'last_pos': None, 'peak': 38, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 39, 'delta': None, 'song': 'Homesick', 'artist': 'Kane Brown', 'last_pos': 39, 'peak': 39, 'duration': 16, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 40, 'delta': -17, 'song': 'Yummy', 'artist': 'Justin Bieber', 'last_pos': 23, 'peak': 2, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 41, 'delta': -9, 'song': 'What A Man Gotta Do', 'artist': 'Jonas Brothers', 'last_pos': 32, 'peak': 16, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 42, 'delta': -5, 'song': 'Godzilla', 'artist': 'Eminem Featuring Juice WRLD', 'last_pos': 37, 'peak': 3, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 43, 'delta': -8, 'song': 'Senorita', 'artist': 'Shawn Mendes & Camila Cabello', 'last_pos': 35, 'peak': 1, 'duration': 37, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 44, 'delta': -6, 'song': 'RITMO (Bad Boys For Life)', 'artist': 'The Black Eyed Peas X J Balvin', 'last_pos': 38, 'peak': 36, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 45, 'delta': -9, 'song': 'Bad Guy', 'artist': 'Billie Eilish', 'last_pos': 36, 'peak': 1, 'duration': 49, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 46, 'delta': -12, 'song': 'Kinfolks', 'artist': 'Sam Hunt', 'last_pos': 34, 'peak': 34, 'duration': 21, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 47, 'delta': -17, 'song': 'Dior', 'artist': 'Pop Smoke', 'last_pos': 30, 'peak': 30, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 48, 'delta': None, 'song': 'Grace', 'artist': 'Lil Baby & 42 Dugg', 'last_pos': None, 'peak': 48, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 49, 'delta': None, 'song': 'Ignorantes', 'artist': 'Bad Bunny & Sech', 'last_pos': None, 'peak': 49, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 50, 'delta': -8, 'song': 'One Man Band', 'artist': 'Old Dominion', 'last_pos': 42, 'peak': 20, 'duration': 28, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 51, 'delta': -6, 'song': 'I Hope', 'artist': 'Gabby Barrett', 'last_pos': 45, 'peak': 44, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 52, 'delta': -1, 'song': 'Blueberry Faygo', 'artist': 'Lil Mosey', 'last_pos': 51, 'peak': 51, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 53, 'delta': None, 'song': 'La Santa', 'artist': 'Bad Bunny X Daddy Yankee', 'last_pos': None, 'peak': 53, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 54, 'delta': None, 'song': 'Get Ugly', 'artist': 'Lil Baby', 'last_pos': None, 'peak': 54, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 55, 'delta': 2, 'song': 'Heart On Ice', 'artist': 'Rod Wave', 'last_pos': 57, 'peak': 54, 'duration': 17, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 56, 'delta': -4, 'song': 'Slide', 'artist': 'H.E.R. Featuring YG', 'last_pos': 52, 'peak': 52, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 57, 'delta': -2, 'song': 'Juicy', 'artist': 'Doja Cat & Tyga', 'last_pos': 55, 'peak': 41, 'duration': 19, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 58, 'delta': None, 'song': 'No Sucker', 'artist': 'Lil Baby & Moneybagg Yo', 'last_pos': None, 'peak': 58, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 59, 'delta': None, 'song': 'How', 'artist': 'Lil Baby', 'last_pos': None, 'peak': 59, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 60, 'delta': -4, 'song': 'BEST ON EARTH', 'artist': 'Russ & BIA', 'last_pos': 56, 'peak': 52, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 61, 'delta': None, 'song': 'The Other Side', 'artist': 'SZA X Justin Timberlake', 'last_pos': None, 'peak': 61, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 62, 'delta': -9, 'song': 'Tusa', 'artist': 'Karol G & Nicki Minaj', 'last_pos': 53, 'peak': 42, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 63, 'delta': None, 'song': 'Pero Ya No', 'artist': 'Bad Bunny', 'last_pos': None, 'peak': 63, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 64, 'delta': None, 'song': 'Forever', 'artist': 'Lil Baby Featuring Lil Wayne', 'last_pos': None, 'peak': 64, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 65, 'delta': -2, 'song': 'Go Stupid', 'artist': 'Polo G Featuring NLE Choppa & Stunna 4 Vegas', 'last_pos': 63, 'peak': 60, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 66, 'delta': -46, 'song': 'After Hours', 'artist': 'The Weeknd', 'last_pos': 20, 'peak': 20, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 67, 'delta': -2, 'song': 'Nobody But You', 'artist': 'Blake Shelton Duet With Gwen Stefani', 'last_pos': 65, 'peak': 43, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 68, 'delta': -64, 'song': 'ON', 'artist': 'BTS', 'last_pos': 4, 'peak': 4, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 69, 'delta': None, 'song': 'Yo Perreo Sola', 'artist': 'Bad Bunny', 'last_pos': None, 'peak': 69, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 70, 'delta': 2, 'song': 'Homemade', 'artist': 'Jake Owen', 'last_pos': 72, 'peak': 70, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 71, 'delta': -4, 'song': "Chasin' You", 'artist': 'Morgan Wallen', 'last_pos': 67, 'peak': 67, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 72, 'delta': -8, 'song': 'What She Wants Tonight', 'artist': 'Luke Bryan', 'last_pos': 64, 'peak': 64, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 73, 'delta': -45, 'song': 'Lil Top', 'artist': 'YoungBoy Never Broke Again', 'last_pos': 28, 'peak': 28, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 74, 'delta': 3, 'song': 'WHATS POPPIN', 'artist': 'Jack Harlow', 'last_pos': 77, 'peak': 74, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 75, 'delta': -2, 'song': 'Slow Dance In A Parking Lot', 'artist': 'Jordan Davis', 'last_pos': 73, 'peak': 72, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 76, 'delta': -26, 'song': 'Numbers', 'artist': 'A Boogie Wit da Hoodie Featuring Roddy Ricch, Gunna & London On Da Track', 'last_pos': 50, 'peak': 23, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 77, 'delta': -7, 'song': 'More Hearts Than Mine', 'artist': 'Ingrid Andress', 'last_pos': 70, 'peak': 67, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 78, 'delta': None, 'song': 'Same Thing', 'artist': 'Lil Baby', 'last_pos': None, 'peak': 78, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 79, 'delta': -17, 'song': 'We Back', 'artist': 'Jason Aldean', 'last_pos': 62, 'peak': 62, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 80, 'delta': -31, 'song': 'Make Me Want To', 'artist': 'Jimmie Allen', 'last_pos': 49, 'peak': 49, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 81, 'delta': None, 'song': 'Safaera', 'artist': 'Bad Bunny, Jowell & Randy & Nengo Flow', 'last_pos': None, 'peak': 81, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 82, 'delta': -11, 'song': 'Moral Of The Story', 'artist': 'Ashe', 'last_pos': 71, 'peak': 71, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 83, 'delta': -15, 'song': 'I Wish Grandpas Never Died', 'artist': 'Riley Green', 'last_pos': 68, 'peak': 66, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 84, 'delta': -23, 'song': 'To Die For', 'artist': 'Sam Smith', 'last_pos': 61, 'peak': 46, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 85, 'delta': 7, 'song': 'The Man', 'artist': 'Taylor Swift', 'last_pos': 92, 'peak': 23, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 86, 'delta': -10, 'song': 'Know Your Worth', 'artist': 'Khalid x Disclosure', 'last_pos': 76, 'peak': 57, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 87, 'delta': -6, 'song': 'Catch', 'artist': 'Brett Young', 'last_pos': 81, 'peak': 81, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 88, 'delta': -13, 'song': "I Hope You're Happy Now", 'artist': 'Carly Pearce & Lee Brice', 'last_pos': 75, 'peak': 65, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 89, 'delta': None, 'song': 'Bichiyal', 'artist': 'Bad Bunny & Yaviah', 'last_pos': None, 'peak': 89, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 90, 'delta': -21, 'song': 'OUT WEST', 'artist': 'JACKBOYS Featuring Young Thug', 'last_pos': 69, 'peak': 38, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 91, 'delta': None, 'song': 'We Should', 'artist': 'Lil Baby & Young Thug', 'last_pos': None, 'peak': 91, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 92, 'delta': -13, 'song': 'Make No Sense', 'artist': 'YoungBoy Never Broke Again', 'last_pos': 79, 'peak': 57, 'duration': 17, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 93, 'delta': -27, 'song': 'Suicidal', 'artist': 'YNW Melly & Juice WRLD', 'last_pos': 66, 'peak': 34, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 94, 'delta': None, 'song': 'Solia', 'artist': 'Bad Bunny', 'last_pos': None, 'peak': 94, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 95, 'delta': -13, 'song': 'Before You Go', 'artist': 'Lewis Capaldi', 'last_pos': 82, 'peak': 71, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 96, 'delta': -42, 'song': 'No Time To Die', 'artist': 'Billie Eilish', 'last_pos': 54, 'peak': 16, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 97, 'delta': None, 'song': 'Esta Cabron Ser Yo', 'artist': 'Bad Bunny X Anuel AA', 'last_pos': None, 'peak': 97, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 98, 'delta': None, 'song': 'Sunday Best', 'artist': 'Surfaces', 'last_pos': None, 'peak': 98, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 99, 'delta': None, 'song': "Can't Explain", 'artist': 'Lil Baby', 'last_pos': None, 'peak': 99, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 100, 'delta': -12, 'song': 'P*$$y Fairy (OTW)', 'artist': 'Jhene Aiko', 'last_pos': 88, 'peak': 55, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+
+
+
+2020-03-07
+{'rank': 1, 'delta': None, 'song': 'The Box', 'artist': 'Roddy Ricch', 'last_pos': 1, 'peak': 1, 'duration': 12, 'img_url': 'https://charts-static.billboard.com/img/2019/12/roddy-ricch-eqp-the-box-2k7-53x53.jpg', 'img_filename': 'd853550349726a31fcb7e3c5e98d32a1b32aa9c3.jpg'}
+{'rank': 2, 'delta': None, 'song': 'Life Is Good', 'artist': 'Future Featuring Drake', 'last_pos': 2, 'peak': 2, 'duration': 7, 'img_url': 'https://charts-static.billboard.com/img/2020/01/future-tsu-life-is-good-rko-53x53.jpg', 'img_filename': '265e340dce9d4cd0359ae6e2dd3c70d64e9226e7.jpg'}
+{'rank': 3, 'delta': None, 'song': 'Circles', 'artist': 'Post Malone', 'last_pos': 3, 'peak': 1, 'duration': 26, 'img_url': 'https://charts-static.billboard.com/img/2019/09/post-malone-tp6-circles-sb0-53x53.jpg', 'img_filename': '9429516cab5989575ee65590dcbcad8996c34cdb.jpg'}
+{'rank': 4, 'delta': None, 'song': 'ON', 'artist': 'BTS', 'last_pos': None, 'peak': 4, 'duration': 1, 'img_url': 'https://charts-static.billboard.com/img/2013/06/bts-4i5-53x53.jpg', 'img_filename': 'e5afd9f4551e8d10808d1b510efcdb7b55f94e44.jpg'}
+{'rank': 5, 'delta': None, 'song': "Don't Start Now", 'artist': 'Dua Lipa', 'last_pos': 5, 'peak': 5, 'duration': 17, 'img_url': 'https://charts-static.billboard.com/img/2019/11/dua-lipa-eqf-dont-start-now-q9p-53x53.jpg', 'img_filename': '369f3ca71396704509b3c4703e6d3eb6431461f7.jpg'}
+{'rank': 6, 'delta': None, 'song': 'Roxanne', 'artist': 'Arizona Zervas', 'last_pos': 6, 'peak': 4, 'duration': 17, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 7, 'delta': -3, 'song': 'Dance Monkey', 'artist': 'Tones And I', 'last_pos': 4, 'peak': 4, 'duration': 21, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 8, 'delta': 2, 'song': 'Blinding Lights', 'artist': 'The Weeknd', 'last_pos': 10, 'peak': 8, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 9, 'delta': -2, 'song': 'Memories', 'artist': 'Maroon 5', 'last_pos': 7, 'peak': 2, 'duration': 23, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 10, 'delta': -2, 'song': 'Someone You Loved', 'artist': 'Lewis Capaldi', 'last_pos': 8, 'peak': 1, 'duration': 42, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 11, 'delta': -2, 'song': 'Intentions', 'artist': 'Justin Bieber Featuring Quavo', 'last_pos': 9, 'peak': 9, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 12, 'delta': None, 'song': 'everything i wanted', 'artist': 'Billie Eilish', 'last_pos': 12, 'peak': 8, 'duration': 16, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 13, 'delta': 1, 'song': 'Heartless', 'artist': 'The Weeknd', 'last_pos': 14, 'peak': 1, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 14, 'delta': 1, 'song': 'Hot Girl Bummer', 'artist': 'blackbear', 'last_pos': 15, 'peak': 14, 'duration': 24, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 15, 'delta': 5, 'song': 'Adore You', 'artist': 'Harry Styles', 'last_pos': 20, 'peak': 15, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 16, 'delta': -3, 'song': '10,000 Hours', 'artist': 'Dan + Shay & Justin Bieber', 'last_pos': 13, 'peak': 4, 'duration': 21, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 17, 'delta': None, 'song': "Ballin'", 'artist': 'Mustard & Roddy Ricch', 'last_pos': 17, 'peak': 11, 'duration': 32, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 18, 'delta': None, 'song': 'BOP', 'artist': 'DaBaby', 'last_pos': 18, 'peak': 11, 'duration': 22, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 19, 'delta': None, 'song': 'The Bones', 'artist': 'Maren Morris', 'last_pos': 19, 'peak': 18, 'duration': 23, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 20, 'delta': 57, 'song': 'After Hours', 'artist': 'The Weeknd', 'last_pos': 77, 'peak': 20, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 21, 'delta': None, 'song': 'Lose You To Love Me', 'artist': 'Selena Gomez', 'last_pos': 21, 'peak': 1, 'duration': 19, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 22, 'delta': 3, 'song': 'My Oh My', 'artist': 'Camila Cabello Featuring DaBaby', 'last_pos': 25, 'peak': 22, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 23, 'delta': -12, 'song': 'Yummy', 'artist': 'Justin Bieber', 'last_pos': 11, 'peak': 2, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 24, 'delta': 4, 'song': 'Woah', 'artist': 'Lil Baby', 'last_pos': 28, 'peak': 16, 'duration': 16, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 25, 'delta': 1, 'song': 'High Fashion', 'artist': 'Roddy Ricch Featuring Mustard', 'last_pos': 26, 'peak': 20, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 26, 'delta': 3, 'song': 'You should be sad', 'artist': 'Halsey', 'last_pos': 29, 'peak': 26, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 27, 'delta': -5, 'song': 'Good As Hell', 'artist': 'Lizzo', 'last_pos': 22, 'peak': 3, 'duration': 27, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 28, 'delta': None, 'song': 'Lil Top', 'artist': 'YoungBoy Never Broke Again', 'last_pos': None, 'peak': 28, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 29, 'delta': -2, 'song': 'Falling', 'artist': 'Trevor Daniel', 'last_pos': 27, 'peak': 25, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 30, 'delta': 19, 'song': 'Dior', 'artist': 'Pop Smoke', 'last_pos': 49, 'peak': 30, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 31, 'delta': None, 'song': 'No Guidance', 'artist': 'Chris Brown Featuring Drake', 'last_pos': 31, 'peak': 5, 'duration': 38, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 32, 'delta': 1, 'song': 'What A Man Gotta Do', 'artist': 'Jonas Brothers', 'last_pos': 33, 'peak': 16, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 33, 'delta': 18, 'song': 'Say So', 'artist': 'Doja Cat', 'last_pos': 51, 'peak': 33, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 34, 'delta': None, 'song': 'Kinfolks', 'artist': 'Sam Hunt', 'last_pos': 34, 'peak': 34, 'duration': 20, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 35, 'delta': -3, 'song': 'Senorita', 'artist': 'Shawn Mendes & Camila Cabello', 'last_pos': 32, 'peak': 1, 'duration': 36, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 36, 'delta': -6, 'song': 'Bad Guy', 'artist': 'Billie Eilish', 'last_pos': 30, 'peak': 1, 'duration': 48, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 37, 'delta': -1, 'song': 'Godzilla', 'artist': 'Eminem Featuring Juice WRLD', 'last_pos': 36, 'peak': 3, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 38, 'delta': 2, 'song': 'RITMO (Bad Boys For Life)', 'artist': 'The Black Eyed Peas X J Balvin', 'last_pos': 40, 'peak': 36, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 39, 'delta': 4, 'song': 'Homesick', 'artist': 'Kane Brown', 'last_pos': 43, 'peak': 39, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 40, 'delta': -5, 'song': 'HIGHEST IN THE ROOM', 'artist': 'Travis Scott', 'last_pos': 35, 'peak': 1, 'duration': 21, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 41, 'delta': -4, 'song': 'Trampoline', 'artist': 'SHAED', 'last_pos': 37, 'peak': 13, 'duration': 39, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 42, 'delta': -4, 'song': 'One Man Band', 'artist': 'Old Dominion', 'last_pos': 38, 'peak': 20, 'duration': 27, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 43, 'delta': -2, 'song': 'Sucker', 'artist': 'Jonas Brothers', 'last_pos': 41, 'peak': 1, 'duration': 47, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 44, 'delta': -5, 'song': "I Don't Care", 'artist': 'Ed Sheeran & Justin Bieber', 'last_pos': 39, 'peak': 2, 'duration': 39, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 45, 'delta': -1, 'song': 'I Hope', 'artist': 'Gabby Barrett', 'last_pos': 44, 'peak': 44, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 46, 'delta': 4, 'song': 'Sum 2 Prove', 'artist': 'Lil Baby', 'last_pos': 50, 'peak': 16, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 47, 'delta': None, 'song': 'Red Eye', 'artist': 'YoungBoy Never Broke Again', 'last_pos': None, 'peak': 47, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 48, 'delta': -6, 'song': 'Only Human', 'artist': 'Jonas Brothers', 'last_pos': 42, 'peak': 18, 'duration': 36, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 49, 'delta': 4, 'song': 'Make Me Want To', 'artist': 'Jimmie Allen', 'last_pos': 53, 'peak': 49, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 50, 'delta': -27, 'song': 'Numbers', 'artist': 'A Boogie Wit da Hoodie Featuring Roddy Ricch, Gunna & London On Da Track', 'last_pos': 23, 'peak': 23, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 51, 'delta': 3, 'song': 'Blueberry Faygo', 'artist': 'Lil Mosey', 'last_pos': 54, 'peak': 51, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 52, 'delta': 3, 'song': 'Slide', 'artist': 'H.E.R. Featuring YG', 'last_pos': 55, 'peak': 52, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 53, 'delta': -6, 'song': 'Tusa', 'artist': 'Karol G & Nicki Minaj', 'last_pos': 47, 'peak': 42, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 54, 'delta': -38, 'song': 'No Time To Die', 'artist': 'Billie Eilish', 'last_pos': 16, 'peak': 16, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 55, 'delta': -3, 'song': 'Juicy', 'artist': 'Doja Cat & Tyga', 'last_pos': 52, 'peak': 41, 'duration': 18, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 56, 'delta': 1, 'song': 'BEST ON EARTH', 'artist': 'Russ & BIA', 'last_pos': 57, 'peak': 52, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 57, 'delta': 4, 'song': 'Heart On Ice', 'artist': 'Rod Wave', 'last_pos': 61, 'peak': 54, 'duration': 16, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 58, 'delta': None, 'song': 'Fine By Time', 'artist': 'YoungBoy Never Broke Again', 'last_pos': None, 'peak': 58, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 59, 'delta': None, 'song': 'Bad Bad', 'artist': 'YoungBoy Never Broke Again', 'last_pos': None, 'peak': 59, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 60, 'delta': None, 'song': 'Knocked Off', 'artist': 'YoungBoy Never Broke Again', 'last_pos': None, 'peak': 60, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 61, 'delta': -15, 'song': 'To Die For', 'artist': 'Sam Smith', 'last_pos': 46, 'peak': 46, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 62, 'delta': 7, 'song': 'We Back', 'artist': 'Jason Aldean', 'last_pos': 69, 'peak': 62, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 63, 'delta': -3, 'song': 'Go Stupid', 'artist': 'Polo G Featuring NLE Choppa & Stunna 4 Vegas', 'last_pos': 60, 'peak': 60, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 64, 'delta': None, 'song': 'What She Wants Tonight', 'artist': 'Luke Bryan', 'last_pos': 64, 'peak': 64, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 65, 'delta': -2, 'song': 'Nobody But You', 'artist': 'Blake Shelton Duet With Gwen Stefani', 'last_pos': 63, 'peak': 43, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 66, 'delta': -10, 'song': 'Suicidal', 'artist': 'YNW Melly & Juice WRLD', 'last_pos': 56, 'peak': 34, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 67, 'delta': 4, 'song': "Chasin' You", 'artist': 'Morgan Wallen', 'last_pos': 71, 'peak': 67, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 68, 'delta': -1, 'song': 'I Wish Grandpas Never Died', 'artist': 'Riley Green', 'last_pos': 67, 'peak': 66, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 69, 'delta': -1, 'song': 'OUT WEST', 'artist': 'JACKBOYS Featuring Young Thug', 'last_pos': 68, 'peak': 38, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 70, 'delta': None, 'song': 'More Hearts Than Mine', 'artist': 'Ingrid Andress', 'last_pos': 70, 'peak': 67, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 71, 'delta': None, 'song': 'Moral Of The Story', 'artist': 'Ashe', 'last_pos': None, 'peak': 71, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 72, 'delta': 2, 'song': 'Homemade', 'artist': 'Jake Owen', 'last_pos': 74, 'peak': 72, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 73, 'delta': -1, 'song': 'Slow Dance In A Parking Lot', 'artist': 'Jordan Davis', 'last_pos': 72, 'peak': 72, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 74, 'delta': -50, 'song': 'Forever', 'artist': 'Justin Bieber Featuring Post Malone & Clever', 'last_pos': 24, 'peak': 24, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 75, 'delta': -10, 'song': "I Hope You're Happy Now", 'artist': 'Carly Pearce & Lee Brice', 'last_pos': 65, 'peak': 65, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 76, 'delta': 2, 'song': 'Know Your Worth', 'artist': 'Khalid x Disclosure', 'last_pos': 78, 'peak': 57, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 77, 'delta': 7, 'song': 'WHATS POPPIN', 'artist': 'Jack Harlow', 'last_pos': 84, 'peak': 77, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 78, 'delta': 14, 'song': 'Dive Bar', 'artist': 'Garth Brooks & Blake Shelton', 'last_pos': 92, 'peak': 78, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 79, 'delta': 3, 'song': 'Make No Sense', 'artist': 'YoungBoy Never Broke Again', 'last_pos': 82, 'peak': 57, 'duration': 16, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 80, 'delta': None, 'song': 'RIP Lil Phat', 'artist': 'YoungBoy Never Broke Again', 'last_pos': None, 'peak': 80, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 81, 'delta': 6, 'song': 'Catch', 'artist': 'Brett Young', 'last_pos': 87, 'peak': 81, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 82, 'delta': -6, 'song': 'Before You Go', 'artist': 'Lewis Capaldi', 'last_pos': 76, 'peak': 71, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 83, 'delta': -8, 'song': 'TOES', 'artist': 'DaBaby Featuring Lil Baby & Moneybagg Yo', 'last_pos': 75, 'peak': 28, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 84, 'delta': None, 'song': 'My Time', 'artist': 'BTS', 'last_pos': None, 'peak': 84, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 85, 'delta': None, 'song': 'Long RD', 'artist': 'YoungBoy Never Broke Again', 'last_pos': None, 'peak': 85, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 86, 'delta': -27, 'song': 'South Of The Border', 'artist': 'Ed Sheeran Featuring Camila Cabello & Cardi B', 'last_pos': 59, 'peak': 49, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 87, 'delta': None, 'song': 'Filter', 'artist': 'BTS', 'last_pos': None, 'peak': 87, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 88, 'delta': 11, 'song': 'P*$$y Fairy (OTW)', 'artist': 'Jhene Aiko', 'last_pos': 99, 'peak': 55, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 89, 'delta': None, 'song': 'Bat Man', 'artist': 'YoungBoy Never Broke Again', 'last_pos': None, 'peak': 89, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 90, 'delta': -1, 'song': 'homecoming queen?', 'artist': 'Kelsea Ballerini', 'last_pos': 89, 'peak': 76, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 91, 'delta': -8, 'song': 'Heartless', 'artist': 'Diplo Presents Thomas Wesley Featuring Morgan Wallen', 'last_pos': 83, 'peak': 73, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 92, 'delta': None, 'song': 'The Man', 'artist': 'Taylor Swift', 'last_pos': None, 'peak': 23, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 93, 'delta': None, 'song': 'Shake The Room', 'artist': 'Pop Smoke Featuring Quavo', 'last_pos': None, 'peak': 93, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 94, 'delta': -4, 'song': 'Rare', 'artist': 'Selena Gomez', 'last_pos': 90, 'peak': 30, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 95, 'delta': -1, 'song': 'Come Thru', 'artist': 'Summer Walker & Usher', 'last_pos': 94, 'peak': 42, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 96, 'delta': -11, 'song': "Ridin' Roads", 'artist': 'Dustin Lynch', 'last_pos': 85, 'peak': 47, 'duration': 17, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 97, 'delta': -39, 'song': 'Me And My Guitar', 'artist': 'A Boogie Wit da Hoodie', 'last_pos': 58, 'peak': 58, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 98, 'delta': None, 'song': 'Feel Me', 'artist': 'Selena Gomez', 'last_pos': None, 'peak': 98, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 99, 'delta': -3, 'song': 'Vete', 'artist': 'Bad Bunny', 'last_pos': 96, 'peak': 33, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 100, 'delta': -7, 'song': 'SUGAR', 'artist': 'BrockHampton', 'last_pos': 93, 'peak': 66, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+
+
+
+2020-02-29
+{'rank': 1, 'delta': None, 'song': 'The Box', 'artist': 'Roddy Ricch', 'last_pos': 1, 'peak': 1, 'duration': 11, 'img_url': 'https://charts-static.billboard.com/img/2019/12/roddy-ricch-eqp-the-box-2k7-53x53.jpg', 'img_filename': 'd853550349726a31fcb7e3c5e98d32a1b32aa9c3.jpg'}
+{'rank': 2, 'delta': None, 'song': 'Life Is Good', 'artist': 'Future Featuring Drake', 'last_pos': 2, 'peak': 2, 'duration': 6, 'img_url': 'https://charts-static.billboard.com/img/2020/01/future-tsu-life-is-good-rko-53x53.jpg', 'img_filename': '265e340dce9d4cd0359ae6e2dd3c70d64e9226e7.jpg'}
+{'rank': 3, 'delta': None, 'song': 'Circles', 'artist': 'Post Malone', 'last_pos': 3, 'peak': 1, 'duration': 25, 'img_url': 'https://charts-static.billboard.com/img/2019/09/post-malone-tp6-circles-sb0-53x53.jpg', 'img_filename': '9429516cab5989575ee65590dcbcad8996c34cdb.jpg'}
+{'rank': 4, 'delta': 1, 'song': 'Dance Monkey', 'artist': 'Tones And I', 'last_pos': 5, 'peak': 4, 'duration': 20, 'img_url': 'https://charts-static.billboard.com/img/2019/08/tones-and-i-e8g-dance-monkey-945-53x53.jpg', 'img_filename': 'faaef4b71f8797626789e46a3c971764467e452d.jpg'}
+{'rank': 5, 'delta': 1, 'song': "Don't Start Now", 'artist': 'Dua Lipa', 'last_pos': 6, 'peak': 5, 'duration': 16, 'img_url': 'https://charts-static.billboard.com/img/2019/11/dua-lipa-eqf-dont-start-now-q9p-53x53.jpg', 'img_filename': '369f3ca71396704509b3c4703e6d3eb6431461f7.jpg'}
+{'rank': 6, 'delta': 1, 'song': 'Roxanne', 'artist': 'Arizona Zervas', 'last_pos': 7, 'peak': 4, 'duration': 16, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 7, 'delta': -3, 'song': 'Memories', 'artist': 'Maroon 5', 'last_pos': 4, 'peak': 2, 'duration': 22, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 8, 'delta': None, 'song': 'Someone You Loved', 'artist': 'Lewis Capaldi', 'last_pos': 8, 'peak': 1, 'duration': 41, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 9, 'delta': 2, 'song': 'Intentions', 'artist': 'Justin Bieber Featuring Quavo', 'last_pos': 11, 'peak': 9, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 10, 'delta': 2, 'song': 'Blinding Lights', 'artist': 'The Weeknd', 'last_pos': 12, 'peak': 10, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 11, 'delta': 8, 'song': 'Yummy', 'artist': 'Justin Bieber', 'last_pos': 19, 'peak': 2, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 12, 'delta': -2, 'song': 'everything i wanted', 'artist': 'Billie Eilish', 'last_pos': 10, 'peak': 8, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 13, 'delta': -4, 'song': '10,000 Hours', 'artist': 'Dan + Shay & Justin Bieber', 'last_pos': 9, 'peak': 4, 'duration': 20, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 14, 'delta': 3, 'song': 'Heartless', 'artist': 'The Weeknd', 'last_pos': 17, 'peak': 1, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 15, 'delta': 1, 'song': 'Hot Girl Bummer', 'artist': 'blackbear', 'last_pos': 16, 'peak': 15, 'duration': 23, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 16, 'delta': None, 'song': 'No Time To Die', 'artist': 'Billie Eilish', 'last_pos': None, 'peak': 16, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 17, 'delta': -3, 'song': "Ballin'", 'artist': 'Mustard & Roddy Ricch', 'last_pos': 14, 'peak': 11, 'duration': 31, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 18, 'delta': -3, 'song': 'BOP', 'artist': 'DaBaby', 'last_pos': 15, 'peak': 11, 'duration': 21, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 19, 'delta': -1, 'song': 'The Bones', 'artist': 'Maren Morris', 'last_pos': 18, 'peak': 18, 'duration': 22, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 20, 'delta': 2, 'song': 'Adore You', 'artist': 'Harry Styles', 'last_pos': 22, 'peak': 20, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 21, 'delta': -8, 'song': 'Lose You To Love Me', 'artist': 'Selena Gomez', 'last_pos': 13, 'peak': 1, 'duration': 18, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 22, 'delta': -2, 'song': 'Good As Hell', 'artist': 'Lizzo', 'last_pos': 20, 'peak': 3, 'duration': 26, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 23, 'delta': None, 'song': 'Numbers', 'artist': 'A Boogie Wit da Hoodie Featuring Roddy Ricch, Gunna & London On Da Track', 'last_pos': None, 'peak': 23, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 24, 'delta': None, 'song': 'Forever', 'artist': 'Justin Bieber Featuring Post Malone & Clever', 'last_pos': None, 'peak': 24, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 25, 'delta': 1, 'song': 'My Oh My', 'artist': 'Camila Cabello Featuring DaBaby', 'last_pos': 26, 'peak': 25, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 26, 'delta': -5, 'song': 'High Fashion', 'artist': 'Roddy Ricch Featuring Mustard', 'last_pos': 21, 'peak': 20, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 27, 'delta': -2, 'song': 'Falling', 'artist': 'Trevor Daniel', 'last_pos': 25, 'peak': 25, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 28, 'delta': -4, 'song': 'Woah', 'artist': 'Lil Baby', 'last_pos': 24, 'peak': 16, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 29, 'delta': 2, 'song': 'You should be sad', 'artist': 'Halsey', 'last_pos': 31, 'peak': 26, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 30, 'delta': -1, 'song': 'Bad Guy', 'artist': 'Billie Eilish', 'last_pos': 29, 'peak': 1, 'duration': 47, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 31, 'delta': -4, 'song': 'No Guidance', 'artist': 'Chris Brown Featuring Drake', 'last_pos': 27, 'peak': 5, 'duration': 37, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 32, 'delta': 1, 'song': 'Senorita', 'artist': 'Shawn Mendes & Camila Cabello', 'last_pos': 33, 'peak': 1, 'duration': 35, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 33, 'delta': -1, 'song': 'What A Man Gotta Do', 'artist': 'Jonas Brothers', 'last_pos': 32, 'peak': 16, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 34, 'delta': None, 'song': 'Kinfolks', 'artist': 'Sam Hunt', 'last_pos': 34, 'peak': 34, 'duration': 19, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 35, 'delta': -5, 'song': 'HIGHEST IN THE ROOM', 'artist': 'Travis Scott', 'last_pos': 30, 'peak': 1, 'duration': 20, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 36, 'delta': -8, 'song': 'Godzilla', 'artist': 'Eminem Featuring Juice WRLD', 'last_pos': 28, 'peak': 3, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 37, 'delta': -2, 'song': 'Trampoline', 'artist': 'SHAED', 'last_pos': 35, 'peak': 13, 'duration': 38, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 38, 'delta': None, 'song': 'One Man Band', 'artist': 'Old Dominion', 'last_pos': 38, 'peak': 20, 'duration': 26, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 39, 'delta': 1, 'song': "I Don't Care", 'artist': 'Ed Sheeran & Justin Bieber', 'last_pos': 40, 'peak': 2, 'duration': 38, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 40, 'delta': -4, 'song': 'RITMO (Bad Boys For Life)', 'artist': 'The Black Eyed Peas X J Balvin', 'last_pos': 36, 'peak': 36, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 41, 'delta': -4, 'song': 'Sucker', 'artist': 'Jonas Brothers', 'last_pos': 37, 'peak': 1, 'duration': 46, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 42, 'delta': -3, 'song': 'Only Human', 'artist': 'Jonas Brothers', 'last_pos': 39, 'peak': 18, 'duration': 35, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 43, 'delta': 2, 'song': 'Homesick', 'artist': 'Kane Brown', 'last_pos': 45, 'peak': 43, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 44, 'delta': 4, 'song': 'I Hope', 'artist': 'Gabby Barrett', 'last_pos': 48, 'peak': 44, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 45, 'delta': -4, 'song': 'Truth Hurts', 'artist': 'Lizzo', 'last_pos': 41, 'peak': 1, 'duration': 42, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 46, 'delta': None, 'song': 'To Die For', 'artist': 'Sam Smith', 'last_pos': None, 'peak': 46, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 47, 'delta': -5, 'song': 'Tusa', 'artist': 'Karol G & Nicki Minaj', 'last_pos': 42, 'peak': 42, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 48, 'delta': None, 'song': 'g n f (Give No Fxk)', 'artist': 'Migos, Young Thug & Travis Scott', 'last_pos': None, 'peak': 48, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 49, 'delta': None, 'song': 'Dior', 'artist': 'Pop Smoke', 'last_pos': None, 'peak': 49, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 50, 'delta': -1, 'song': 'Sum 2 Prove', 'artist': 'Lil Baby', 'last_pos': 49, 'peak': 16, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 51, 'delta': 7, 'song': 'Say So', 'artist': 'Doja Cat', 'last_pos': 58, 'peak': 51, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 52, 'delta': -9, 'song': 'Juicy', 'artist': 'Doja Cat & Tyga', 'last_pos': 43, 'peak': 41, 'duration': 17, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 53, 'delta': None, 'song': 'Make Me Want To', 'artist': 'Jimmie Allen', 'last_pos': 53, 'peak': 53, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 54, 'delta': 8, 'song': 'Blueberry Faygo', 'artist': 'Lil Mosey', 'last_pos': 62, 'peak': 54, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 55, 'delta': 1, 'song': 'Slide', 'artist': 'H.E.R. Featuring YG', 'last_pos': 56, 'peak': 54, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 56, 'delta': -12, 'song': 'Suicidal', 'artist': 'YNW Melly & Juice WRLD', 'last_pos': 44, 'peak': 34, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 57, 'delta': -3, 'song': 'BEST ON EARTH', 'artist': 'Russ & BIA', 'last_pos': 54, 'peak': 52, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 58, 'delta': None, 'song': 'Me And My Guitar', 'artist': 'A Boogie Wit da Hoodie', 'last_pos': None, 'peak': 58, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 59, 'delta': -9, 'song': 'South Of The Border', 'artist': 'Ed Sheeran Featuring Camila Cabello & Cardi B', 'last_pos': 50, 'peak': 49, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 60, 'delta': None, 'song': 'Go Stupid', 'artist': 'Polo G Featuring NLE Choppa & Stunna 4 Vegas', 'last_pos': None, 'peak': 60, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 61, 'delta': -6, 'song': 'Heart On Ice', 'artist': 'Rod Wave', 'last_pos': 55, 'peak': 54, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 62, 'delta': -11, 'song': 'Bandit', 'artist': 'Juice WRLD & YoungBoy Never Broke Again', 'last_pos': 51, 'peak': 10, 'duration': 20, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 63, 'delta': -3, 'song': 'Nobody But You', 'artist': 'Blake Shelton Duet With Gwen Stefani', 'last_pos': 60, 'peak': 43, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 64, 'delta': None, 'song': 'What She Wants Tonight', 'artist': 'Luke Bryan', 'last_pos': 64, 'peak': 64, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 65, 'delta': 12, 'song': "I Hope You're Happy Now", 'artist': 'Carly Pearce & Lee Brice', 'last_pos': 77, 'peak': 65, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 66, 'delta': None, 'song': 'Might Not Give Up', 'artist': 'A Boogie Wit da Hoodie Featuring Young Thug', 'last_pos': None, 'peak': 66, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 67, 'delta': -1, 'song': 'I Wish Grandpas Never Died', 'artist': 'Riley Green', 'last_pos': 66, 'peak': 66, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 68, 'delta': -9, 'song': 'OUT WEST', 'artist': 'JACKBOYS Featuring Young Thug', 'last_pos': 59, 'peak': 38, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 69, 'delta': None, 'song': 'We Back', 'artist': 'Jason Aldean', 'last_pos': 69, 'peak': 69, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 70, 'delta': -3, 'song': 'More Hearts Than Mine', 'artist': 'Ingrid Andress', 'last_pos': 67, 'peak': 67, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 71, 'delta': 10, 'song': "Chasin' You", 'artist': 'Morgan Wallen', 'last_pos': 81, 'peak': 71, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 72, 'delta': 4, 'song': 'Slow Dance In A Parking Lot', 'artist': 'Jordan Davis', 'last_pos': 76, 'peak': 72, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 73, 'delta': None, 'song': 'Thug Love', 'artist': 'A Boogie Wit da Hoodie', 'last_pos': None, 'peak': 73, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 74, 'delta': 1, 'song': 'Homemade', 'artist': 'Jake Owen', 'last_pos': 75, 'peak': 74, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 75, 'delta': -12, 'song': 'TOES', 'artist': 'DaBaby Featuring Lil Baby & Moneybagg Yo', 'last_pos': 63, 'peak': 28, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 76, 'delta': -5, 'song': 'Before You Go', 'artist': 'Lewis Capaldi', 'last_pos': 71, 'peak': 71, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 77, 'delta': None, 'song': 'After Hours', 'artist': 'The Weeknd', 'last_pos': None, 'peak': 77, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 78, 'delta': -21, 'song': 'Know Your Worth', 'artist': 'Khalid x Disclosure', 'last_pos': 57, 'peak': 57, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 79, 'delta': None, 'song': 'Ignorantes', 'artist': 'Bad Bunny & Sech', 'last_pos': None, 'peak': 79, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 80, 'delta': None, 'song': 'Stain', 'artist': 'A Boogie Wit da Hoodie Featuring DaBaby', 'last_pos': None, 'peak': 80, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 81, 'delta': -58, 'song': 'Yikes', 'artist': 'Nicki Minaj', 'last_pos': 23, 'peak': 23, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 82, 'delta': -3, 'song': 'Make No Sense', 'artist': 'YoungBoy Never Broke Again', 'last_pos': 79, 'peak': 57, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 83, 'delta': -10, 'song': 'Heartless', 'artist': 'Diplo Presents Thomas Wesley Featuring Morgan Wallen', 'last_pos': 73, 'peak': 73, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 84, 'delta': 12, 'song': 'WHATS POPPIN', 'artist': 'Jack Harlow', 'last_pos': 96, 'peak': 84, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 85, 'delta': -7, 'song': "Ridin' Roads", 'artist': 'Dustin Lynch', 'last_pos': 78, 'peak': 47, 'duration': 16, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 86, 'delta': None, 'song': 'Come Around Me', 'artist': 'Justin Bieber', 'last_pos': None, 'peak': 86, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 87, 'delta': 5, 'song': 'Catch', 'artist': 'Brett Young', 'last_pos': 92, 'peak': 87, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 88, 'delta': -16, 'song': 'B.I.T.C.H.', 'artist': 'Megan Thee Stallion', 'last_pos': 72, 'peak': 31, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 89, 'delta': -3, 'song': 'homecoming queen?', 'artist': 'Kelsea Ballerini', 'last_pos': 86, 'peak': 76, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 90, 'delta': -3, 'song': 'Rare', 'artist': 'Selena Gomez', 'last_pos': 87, 'peak': 30, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 91, 'delta': 8, 'song': 'King Of My City', 'artist': 'A Boogie Wit da Hoodie', 'last_pos': 99, 'peak': 69, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 92, 'delta': -7, 'song': 'Dive Bar', 'artist': 'Garth Brooks & Blake Shelton', 'last_pos': 85, 'peak': 85, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 93, 'delta': -11, 'song': 'SUGAR', 'artist': 'BrockHampton', 'last_pos': 82, 'peak': 66, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 94, 'delta': -5, 'song': 'Come Thru', 'artist': 'Summer Walker & Usher', 'last_pos': 89, 'peak': 42, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 95, 'delta': None, 'song': 'Cinderella Story', 'artist': 'A Boogie Wit da Hoodie', 'last_pos': None, 'peak': 95, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 96, 'delta': -5, 'song': 'Vete', 'artist': 'Bad Bunny', 'last_pos': 91, 'peak': 33, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 97, 'delta': -4, 'song': 'Into The Unknown', 'artist': 'Idina Menzel & AURORA', 'last_pos': 93, 'peak': 46, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 98, 'delta': None, 'song': 'Habitual', 'artist': 'Justin Bieber', 'last_pos': None, 'peak': 98, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 99, 'delta': -29, 'song': 'P*$$y Fairy (OTW)', 'artist': 'Jhene Aiko', 'last_pos': 70, 'peak': 55, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 100, 'delta': None, 'song': 'All Around Me', 'artist': 'Justin Bieber', 'last_pos': None, 'peak': 100, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+
+
+
+2020-02-22
+{'rank': 1, 'delta': None, 'song': 'The Box', 'artist': 'Roddy Ricch', 'last_pos': 1, 'peak': 1, 'duration': 10, 'img_url': 'https://charts-static.billboard.com/img/2019/12/roddy-ricch-eqp-the-box-2k7-53x53.jpg', 'img_filename': 'd853550349726a31fcb7e3c5e98d32a1b32aa9c3.jpg'}
+{'rank': 2, 'delta': None, 'song': 'Life Is Good', 'artist': 'Future Featuring Drake', 'last_pos': 2, 'peak': 2, 'duration': 5, 'img_url': 'https://charts-static.billboard.com/img/2020/01/future-tsu-life-is-good-rko-53x53.jpg', 'img_filename': '265e340dce9d4cd0359ae6e2dd3c70d64e9226e7.jpg'}
+{'rank': 3, 'delta': None, 'song': 'Circles', 'artist': 'Post Malone', 'last_pos': 3, 'peak': 1, 'duration': 24, 'img_url': 'https://charts-static.billboard.com/img/2019/09/post-malone-tp6-circles-sb0-53x53.jpg', 'img_filename': '9429516cab5989575ee65590dcbcad8996c34cdb.jpg'}
+{'rank': 4, 'delta': None, 'song': 'Memories', 'artist': 'Maroon 5', 'last_pos': 4, 'peak': 2, 'duration': 21, 'img_url': 'https://charts-static.billboard.com/img/2019/09/maroon-5-vhb-memories-cnj-53x53.jpg', 'img_filename': 'cd7850ef83efe450007d066e0d7f2dfd20080d08.jpg'}
+{'rank': 5, 'delta': None, 'song': 'Dance Monkey', 'artist': 'Tones And I', 'last_pos': 5, 'peak': 5, 'duration': 19, 'img_url': 'https://charts-static.billboard.com/img/2019/08/tones-and-i-e8g-dance-monkey-945-53x53.jpg', 'img_filename': 'faaef4b71f8797626789e46a3c971764467e452d.jpg'}
+{'rank': 6, 'delta': 3, 'song': "Don't Start Now", 'artist': 'Dua Lipa', 'last_pos': 9, 'peak': 6, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 7, 'delta': None, 'song': 'Roxanne', 'artist': 'Arizona Zervas', 'last_pos': 7, 'peak': 4, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 8, 'delta': -2, 'song': 'Someone You Loved', 'artist': 'Lewis Capaldi', 'last_pos': 6, 'peak': 1, 'duration': 40, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 9, 'delta': -1, 'song': '10,000 Hours', 'artist': 'Dan + Shay & Justin Bieber', 'last_pos': 8, 'peak': 4, 'duration': 19, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 10, 'delta': None, 'song': 'everything i wanted', 'artist': 'Billie Eilish', 'last_pos': 10, 'peak': 8, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 11, 'delta': None, 'song': 'Intentions', 'artist': 'Justin Bieber Featuring Quavo', 'last_pos': None, 'peak': 11, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 12, 'delta': 3, 'song': 'Blinding Lights', 'artist': 'The Weeknd', 'last_pos': 15, 'peak': 11, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 13, 'delta': -2, 'song': 'Lose You To Love Me', 'artist': 'Selena Gomez', 'last_pos': 11, 'peak': 1, 'duration': 17, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 14, 'delta': -2, 'song': "Ballin'", 'artist': 'Mustard & Roddy Ricch', 'last_pos': 12, 'peak': 11, 'duration': 30, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 15, 'delta': -2, 'song': 'BOP', 'artist': 'DaBaby', 'last_pos': 13, 'peak': 11, 'duration': 20, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 16, 'delta': 3, 'song': 'Hot Girl Bummer', 'artist': 'blackbear', 'last_pos': 19, 'peak': 16, 'duration': 22, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 17, 'delta': None, 'song': 'Heartless', 'artist': 'The Weeknd', 'last_pos': 17, 'peak': 1, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 18, 'delta': None, 'song': 'The Bones', 'artist': 'Maren Morris', 'last_pos': 18, 'peak': 18, 'duration': 21, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 19, 'delta': -5, 'song': 'Yummy', 'artist': 'Justin Bieber', 'last_pos': 14, 'peak': 2, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 20, 'delta': -4, 'song': 'Good As Hell', 'artist': 'Lizzo', 'last_pos': 16, 'peak': 3, 'duration': 25, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 21, 'delta': None, 'song': 'High Fashion', 'artist': 'Roddy Ricch Featuring Mustard', 'last_pos': 21, 'peak': 20, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 22, 'delta': 1, 'song': 'Adore You', 'artist': 'Harry Styles', 'last_pos': 23, 'peak': 22, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 23, 'delta': None, 'song': 'Yikes', 'artist': 'Nicki Minaj', 'last_pos': None, 'peak': 23, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 24, 'delta': None, 'song': 'Woah', 'artist': 'Lil Baby', 'last_pos': 24, 'peak': 16, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 25, 'delta': 2, 'song': 'Falling', 'artist': 'Trevor Daniel', 'last_pos': 27, 'peak': 25, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 26, 'delta': 5, 'song': 'My Oh My', 'artist': 'Camila Cabello Featuring DaBaby', 'last_pos': 31, 'peak': 26, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 27, 'delta': -5, 'song': 'No Guidance', 'artist': 'Chris Brown Featuring Drake', 'last_pos': 22, 'peak': 5, 'duration': 36, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 28, 'delta': -8, 'song': 'Godzilla', 'artist': 'Eminem Featuring Juice WRLD', 'last_pos': 20, 'peak': 3, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 29, 'delta': -4, 'song': 'Bad Guy', 'artist': 'Billie Eilish', 'last_pos': 25, 'peak': 1, 'duration': 46, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 30, 'delta': -4, 'song': 'HIGHEST IN THE ROOM', 'artist': 'Travis Scott', 'last_pos': 26, 'peak': 1, 'duration': 19, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 31, 'delta': -1, 'song': 'You should be sad', 'artist': 'Halsey', 'last_pos': 30, 'peak': 26, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 32, 'delta': -3, 'song': 'What A Man Gotta Do', 'artist': 'Jonas Brothers', 'last_pos': 29, 'peak': 16, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 33, 'delta': -5, 'song': 'Senorita', 'artist': 'Shawn Mendes & Camila Cabello', 'last_pos': 28, 'peak': 1, 'duration': 34, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 34, 'delta': None, 'song': 'Kinfolks', 'artist': 'Sam Hunt', 'last_pos': 34, 'peak': 34, 'duration': 18, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 35, 'delta': -3, 'song': 'Trampoline', 'artist': 'SHAED', 'last_pos': 32, 'peak': 13, 'duration': 37, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 36, 'delta': 8, 'song': 'RITMO (Bad Boys For Life)', 'artist': 'The Black Eyed Peas X J Balvin', 'last_pos': 44, 'peak': 36, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 37, 'delta': 1, 'song': 'Sucker', 'artist': 'Jonas Brothers', 'last_pos': 38, 'peak': 1, 'duration': 45, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 38, 'delta': -2, 'song': 'One Man Band', 'artist': 'Old Dominion', 'last_pos': 36, 'peak': 20, 'duration': 25, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 39, 'delta': -2, 'song': 'Only Human', 'artist': 'Jonas Brothers', 'last_pos': 37, 'peak': 18, 'duration': 34, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 40, 'delta': None, 'song': "I Don't Care", 'artist': 'Ed Sheeran & Justin Bieber', 'last_pos': 40, 'peak': 2, 'duration': 37, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 41, 'delta': -6, 'song': 'Truth Hurts', 'artist': 'Lizzo', 'last_pos': 35, 'peak': 1, 'duration': 41, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 42, 'delta': None, 'song': 'Tusa', 'artist': 'Karol G & Nicki Minaj', 'last_pos': 42, 'peak': 42, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 43, 'delta': -2, 'song': 'Juicy', 'artist': 'Doja Cat & Tyga', 'last_pos': 41, 'peak': 41, 'duration': 16, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 44, 'delta': -5, 'song': 'Suicidal', 'artist': 'YNW Melly & Juice WRLD', 'last_pos': 39, 'peak': 34, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 45, 'delta': 6, 'song': 'Homesick', 'artist': 'Kane Brown', 'last_pos': 51, 'peak': 45, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 46, 'delta': 1, 'song': 'Hot', 'artist': 'Young Thug Featuring Gunna', 'last_pos': 47, 'peak': 11, 'duration': 26, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 47, 'delta': -4, 'song': "Even Though I'm Leaving", 'artist': 'Luke Combs', 'last_pos': 43, 'peak': 11, 'duration': 24, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 48, 'delta': 5, 'song': 'I Hope', 'artist': 'Gabby Barrett', 'last_pos': 53, 'peak': 48, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 49, 'delta': -3, 'song': 'Sum 2 Prove', 'artist': 'Lil Baby', 'last_pos': 46, 'peak': 16, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 50, 'delta': -1, 'song': 'South Of The Border', 'artist': 'Ed Sheeran Featuring Camila Cabello & Cardi B', 'last_pos': 49, 'peak': 49, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 51, 'delta': -6, 'song': 'Bandit', 'artist': 'Juice WRLD & YoungBoy Never Broke Again', 'last_pos': 45, 'peak': 10, 'duration': 19, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 52, 'delta': -4, 'song': 'Heartache Medication', 'artist': 'Jon Pardi', 'last_pos': 48, 'peak': 42, 'duration': 20, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 53, 'delta': 12, 'song': 'Make Me Want To', 'artist': 'Jimmie Allen', 'last_pos': 65, 'peak': 53, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 54, 'delta': -2, 'song': 'BEST ON EARTH', 'artist': 'Russ & BIA', 'last_pos': 52, 'peak': 52, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 55, 'delta': None, 'song': 'Heart On Ice', 'artist': 'Rod Wave', 'last_pos': 55, 'peak': 54, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 56, 'delta': -2, 'song': 'Slide', 'artist': 'H.E.R. Featuring YG', 'last_pos': 54, 'peak': 54, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 57, 'delta': None, 'song': 'Know Your Worth', 'artist': 'Khalid x Disclosure', 'last_pos': None, 'peak': 57, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 58, 'delta': 9, 'song': 'Say So', 'artist': 'Doja Cat', 'last_pos': 67, 'peak': 58, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 59, 'delta': -2, 'song': 'OUT WEST', 'artist': 'JACKBOYS Featuring Young Thug', 'last_pos': 57, 'peak': 38, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 60, 'delta': 2, 'song': 'Nobody But You', 'artist': 'Blake Shelton Duet With Gwen Stefani', 'last_pos': 62, 'peak': 43, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 61, 'delta': -28, 'song': 'I Do It', 'artist': 'Lil Wayne Featuring Big Sean & Lil Baby', 'last_pos': 33, 'peak': 33, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 62, 'delta': None, 'song': 'Blueberry Faygo', 'artist': 'Lil Mosey', 'last_pos': None, 'peak': 62, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 63, 'delta': -5, 'song': 'TOES', 'artist': 'DaBaby Featuring Lil Baby & Moneybagg Yo', 'last_pos': 58, 'peak': 28, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 64, 'delta': None, 'song': 'What She Wants Tonight', 'artist': 'Luke Bryan', 'last_pos': 64, 'peak': 64, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 65, 'delta': -2, 'song': 'VIBEZ', 'artist': 'DaBaby', 'last_pos': 63, 'peak': 21, 'duration': 20, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 66, 'delta': 2, 'song': 'I Wish Grandpas Never Died', 'artist': 'Riley Green', 'last_pos': 68, 'peak': 66, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 67, 'delta': 4, 'song': 'More Hearts Than Mine', 'artist': 'Ingrid Andress', 'last_pos': 71, 'peak': 67, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 68, 'delta': None, 'song': 'Run', 'artist': 'Joji', 'last_pos': None, 'peak': 68, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 69, 'delta': 3, 'song': 'We Back', 'artist': 'Jason Aldean', 'last_pos': 72, 'peak': 69, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 70, 'delta': -4, 'song': 'P*$$y Fairy (OTW)', 'artist': 'Jhene Aiko', 'last_pos': 66, 'peak': 55, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 71, 'delta': 8, 'song': 'Before You Go', 'artist': 'Lewis Capaldi', 'last_pos': 79, 'peak': 71, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 72, 'delta': -13, 'song': 'B.I.T.C.H.', 'artist': 'Megan Thee Stallion', 'last_pos': 59, 'peak': 31, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 73, 'delta': 2, 'song': 'Heartless', 'artist': 'Diplo Presents Thomas Wesley Featuring Morgan Wallen', 'last_pos': 75, 'peak': 73, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 74, 'delta': None, 'song': 'Rodeo', 'artist': 'Lil Nas X & Cardi B Or Nas', 'last_pos': None, 'peak': 22, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 75, 'delta': 6, 'song': 'Homemade', 'artist': 'Jake Owen', 'last_pos': 81, 'peak': 75, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 76, 'delta': 14, 'song': 'Slow Dance In A Parking Lot', 'artist': 'Jordan Davis', 'last_pos': 90, 'peak': 76, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 77, 'delta': -1, 'song': "I Hope You're Happy Now", 'artist': 'Carly Pearce & Lee Brice', 'last_pos': 76, 'peak': 75, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 78, 'delta': -1, 'song': "Ridin' Roads", 'artist': 'Dustin Lynch', 'last_pos': 77, 'peak': 47, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 79, 'delta': 1, 'song': 'Make No Sense', 'artist': 'YoungBoy Never Broke Again', 'last_pos': 80, 'peak': 57, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 80, 'delta': None, 'song': 'Loyal', 'artist': 'PARTYNEXTDOOR Featuring Drake', 'last_pos': None, 'peak': 63, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 81, 'delta': 4, 'song': "Chasin' You", 'artist': 'Morgan Wallen', 'last_pos': 85, 'peak': 81, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 82, 'delta': -8, 'song': 'SUGAR', 'artist': 'BrockHampton', 'last_pos': 74, 'peak': 66, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 83, 'delta': None, 'song': 'KEII', 'artist': 'Anuel AA', 'last_pos': None, 'peak': 83, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 84, 'delta': -14, 'song': 'Futsal Shuffle 2020', 'artist': 'Lil Uzi Vert', 'last_pos': 70, 'peak': 5, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 85, 'delta': 10, 'song': 'Dive Bar', 'artist': 'Garth Brooks & Blake Shelton', 'last_pos': 95, 'peak': 85, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 86, 'delta': None, 'song': 'homecoming queen?', 'artist': 'Kelsea Ballerini', 'last_pos': 86, 'peak': 76, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 87, 'delta': 10, 'song': 'Rare', 'artist': 'Selena Gomez', 'last_pos': 97, 'peak': 30, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 88, 'delta': -10, 'song': 'No Idea', 'artist': 'Don Toliver', 'last_pos': 78, 'peak': 43, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 89, 'delta': 2, 'song': 'Come Thru', 'artist': 'Summer Walker & Usher', 'last_pos': 91, 'peak': 42, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 90, 'delta': None, 'song': 'Believe', 'artist': 'Meek Mill Featuring Justin Timberlake', 'last_pos': None, 'peak': 90, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 91, 'delta': -7, 'song': 'Vete', 'artist': 'Bad Bunny', 'last_pos': 84, 'peak': 33, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 92, 'delta': 2, 'song': 'Catch', 'artist': 'Brett Young', 'last_pos': 94, 'peak': 92, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 93, 'delta': None, 'song': 'Into The Unknown', 'artist': 'Idina Menzel & AURORA', 'last_pos': None, 'peak': 46, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 94, 'delta': -11, 'song': 'Start Wit Me', 'artist': 'Roddy Ricch & Gunna', 'last_pos': 83, 'peak': 56, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 95, 'delta': 1, 'song': 'Easy', 'artist': 'DaniLeigh Featuring Chris Brown', 'last_pos': 96, 'peak': 79, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 96, 'delta': None, 'song': 'WHATS POPPIN', 'artist': 'Jack Harlow', 'last_pos': None, 'peak': 96, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 97, 'delta': None, 'song': 'No Judgement', 'artist': 'Niall Horan', 'last_pos': None, 'peak': 97, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 98, 'delta': -6, 'song': 'Jerry Sprunger', 'artist': 'Tory Lanez & T-Pain', 'last_pos': 92, 'peak': 44, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 99, 'delta': -30, 'song': 'King Of My City', 'artist': 'A Boogie Wit da Hoodie', 'last_pos': 69, 'peak': 69, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 100, 'delta': None, 'song': 'ORANGE SODA', 'artist': 'Baby Keem', 'last_pos': 100, 'peak': 98, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+
+
+
+2020-02-15
+{'rank': 1, 'delta': None, 'song': 'The Box', 'artist': 'Roddy Ricch', 'last_pos': 1, 'peak': 1, 'duration': 9, 'img_url': 'https://charts-static.billboard.com/img/2019/12/roddy-ricch-eqp-the-box-2k7-53x53.jpg', 'img_filename': 'd853550349726a31fcb7e3c5e98d32a1b32aa9c3.jpg'}
+{'rank': 2, 'delta': None, 'song': 'Life Is Good', 'artist': 'Future Featuring Drake', 'last_pos': 2, 'peak': 2, 'duration': 4, 'img_url': 'https://charts-static.billboard.com/img/2020/01/future-tsu-life-is-good-rko-53x53.jpg', 'img_filename': '265e340dce9d4cd0359ae6e2dd3c70d64e9226e7.jpg'}
+{'rank': 3, 'delta': None, 'song': 'Circles', 'artist': 'Post Malone', 'last_pos': 3, 'peak': 1, 'duration': 23, 'img_url': 'https://charts-static.billboard.com/img/2019/09/post-malone-tp6-circles-sb0-53x53.jpg', 'img_filename': '9429516cab5989575ee65590dcbcad8996c34cdb.jpg'}
+{'rank': 4, 'delta': None, 'song': 'Memories', 'artist': 'Maroon 5', 'last_pos': 4, 'peak': 2, 'duration': 20, 'img_url': 'https://charts-static.billboard.com/img/2019/09/maroon-5-vhb-memories-cnj-53x53.jpg', 'img_filename': 'cd7850ef83efe450007d066e0d7f2dfd20080d08.jpg'}
+{'rank': 5, 'delta': 2, 'song': 'Dance Monkey', 'artist': 'Tones And I', 'last_pos': 7, 'peak': 5, 'duration': 18, 'img_url': 'https://charts-static.billboard.com/img/2019/08/tones-and-i-e8g-dance-monkey-945-53x53.jpg', 'img_filename': 'faaef4b71f8797626789e46a3c971764467e452d.jpg'}
+{'rank': 6, 'delta': -1, 'song': 'Someone You Loved', 'artist': 'Lewis Capaldi', 'last_pos': 5, 'peak': 1, 'duration': 39, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 7, 'delta': 1, 'song': 'Roxanne', 'artist': 'Arizona Zervas', 'last_pos': 8, 'peak': 4, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 8, 'delta': -2, 'song': '10,000 Hours', 'artist': 'Dan + Shay & Justin Bieber', 'last_pos': 6, 'peak': 4, 'duration': 18, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 9, 'delta': None, 'song': "Don't Start Now", 'artist': 'Dua Lipa', 'last_pos': 9, 'peak': 9, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 10, 'delta': None, 'song': 'everything i wanted', 'artist': 'Billie Eilish', 'last_pos': 10, 'peak': 8, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 11, 'delta': None, 'song': 'Lose You To Love Me', 'artist': 'Selena Gomez', 'last_pos': 11, 'peak': 1, 'duration': 16, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 12, 'delta': 4, 'song': "Ballin'", 'artist': 'Mustard & Roddy Ricch', 'last_pos': 16, 'peak': 11, 'duration': 29, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 13, 'delta': 1, 'song': 'BOP', 'artist': 'DaBaby', 'last_pos': 14, 'peak': 11, 'duration': 19, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 14, 'delta': 1, 'song': 'Yummy', 'artist': 'Justin Bieber', 'last_pos': 15, 'peak': 2, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 15, 'delta': 3, 'song': 'Blinding Lights', 'artist': 'The Weeknd', 'last_pos': 18, 'peak': 11, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 16, 'delta': -3, 'song': 'Good As Hell', 'artist': 'Lizzo', 'last_pos': 13, 'peak': 3, 'duration': 24, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 17, 'delta': 2, 'song': 'Heartless', 'artist': 'The Weeknd', 'last_pos': 19, 'peak': 1, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 18, 'delta': 3, 'song': 'The Bones', 'artist': 'Maren Morris', 'last_pos': 21, 'peak': 18, 'duration': 20, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 19, 'delta': 4, 'song': 'Hot Girl Bummer', 'artist': 'blackbear', 'last_pos': 23, 'peak': 19, 'duration': 21, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 20, 'delta': -8, 'song': 'Godzilla', 'artist': 'Eminem Featuring Juice WRLD', 'last_pos': 12, 'peak': 3, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 21, 'delta': 1, 'song': 'High Fashion', 'artist': 'Roddy Ricch Featuring Mustard', 'last_pos': 22, 'peak': 20, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 22, 'delta': 2, 'song': 'No Guidance', 'artist': 'Chris Brown Featuring Drake', 'last_pos': 24, 'peak': 5, 'duration': 35, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 23, 'delta': 6, 'song': 'Adore You', 'artist': 'Harry Styles', 'last_pos': 29, 'peak': 23, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 24, 'delta': 1, 'song': 'Woah', 'artist': 'Lil Baby', 'last_pos': 25, 'peak': 16, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 25, 'delta': -8, 'song': 'Bad Guy', 'artist': 'Billie Eilish', 'last_pos': 17, 'peak': 1, 'duration': 45, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 26, 'delta': -6, 'song': 'HIGHEST IN THE ROOM', 'artist': 'Travis Scott', 'last_pos': 20, 'peak': 1, 'duration': 18, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 27, 'delta': 6, 'song': 'Falling', 'artist': 'Trevor Daniel', 'last_pos': 33, 'peak': 27, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 28, 'delta': -2, 'song': 'Senorita', 'artist': 'Shawn Mendes & Camila Cabello', 'last_pos': 26, 'peak': 1, 'duration': 33, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 29, 'delta': 1, 'song': 'What A Man Gotta Do', 'artist': 'Jonas Brothers', 'last_pos': 30, 'peak': 16, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 30, 'delta': -2, 'song': 'You should be sad', 'artist': 'Halsey', 'last_pos': 28, 'peak': 26, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 31, 'delta': 4, 'song': 'My Oh My', 'artist': 'Camila Cabello Featuring DaBaby', 'last_pos': 35, 'peak': 31, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 32, 'delta': -5, 'song': 'Trampoline', 'artist': 'SHAED', 'last_pos': 27, 'peak': 13, 'duration': 36, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 33, 'delta': None, 'song': 'I Do It', 'artist': 'Lil Wayne Featuring Big Sean & Lil Baby', 'last_pos': None, 'peak': 33, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 34, 'delta': 12, 'song': 'Kinfolks', 'artist': 'Sam Hunt', 'last_pos': 46, 'peak': 34, 'duration': 17, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 35, 'delta': -3, 'song': 'Truth Hurts', 'artist': 'Lizzo', 'last_pos': 32, 'peak': 1, 'duration': 40, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 36, 'delta': 4, 'song': 'One Man Band', 'artist': 'Old Dominion', 'last_pos': 40, 'peak': 20, 'duration': 24, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 37, 'delta': None, 'song': 'Only Human', 'artist': 'Jonas Brothers', 'last_pos': 37, 'peak': 18, 'duration': 33, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 38, 'delta': 1, 'song': 'Sucker', 'artist': 'Jonas Brothers', 'last_pos': 39, 'peak': 1, 'duration': 44, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 39, 'delta': -3, 'song': 'Suicidal', 'artist': 'YNW Melly & Juice WRLD', 'last_pos': 36, 'peak': 34, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 40, 'delta': 4, 'song': "I Don't Care", 'artist': 'Ed Sheeran & Justin Bieber', 'last_pos': 44, 'peak': 2, 'duration': 36, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 41, 'delta': 7, 'song': 'Juicy', 'artist': 'Doja Cat & Tyga', 'last_pos': 48, 'peak': 41, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 42, 'delta': 9, 'song': 'Tusa', 'artist': 'Karol G & Nicki Minaj', 'last_pos': 51, 'peak': 42, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 43, 'delta': -2, 'song': "Even Though I'm Leaving", 'artist': 'Luke Combs', 'last_pos': 41, 'peak': 11, 'duration': 23, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 44, 'delta': 9, 'song': 'RITMO (Bad Boys For Life)', 'artist': 'The Black Eyed Peas X J Balvin', 'last_pos': 53, 'peak': 44, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 45, 'delta': 2, 'song': 'Bandit', 'artist': 'Juice WRLD & YoungBoy Never Broke Again', 'last_pos': 47, 'peak': 10, 'duration': 18, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 46, 'delta': -8, 'song': 'Sum 2 Prove', 'artist': 'Lil Baby', 'last_pos': 38, 'peak': 16, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 47, 'delta': -2, 'song': 'Hot', 'artist': 'Young Thug Featuring Gunna', 'last_pos': 45, 'peak': 11, 'duration': 25, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 48, 'delta': -6, 'song': 'Heartache Medication', 'artist': 'Jon Pardi', 'last_pos': 42, 'peak': 42, 'duration': 19, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 49, 'delta': 1, 'song': 'South Of The Border', 'artist': 'Ed Sheeran Featuring Camila Cabello & Cardi B', 'last_pos': 50, 'peak': 49, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 50, 'delta': None, 'song': 'Only The Young', 'artist': 'Taylor Swift', 'last_pos': None, 'peak': 50, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 51, 'delta': 1, 'song': 'Homesick', 'artist': 'Kane Brown', 'last_pos': 52, 'peak': 51, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 52, 'delta': 10, 'song': 'BEST ON EARTH', 'artist': 'Russ & BIA', 'last_pos': 62, 'peak': 52, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 53, 'delta': 3, 'song': 'I Hope', 'artist': 'Gabby Barrett', 'last_pos': 56, 'peak': 53, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 54, 'delta': 3, 'song': 'Slide', 'artist': 'H.E.R. Featuring YG', 'last_pos': 57, 'peak': 54, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 55, 'delta': 4, 'song': 'Heart On Ice', 'artist': 'Rod Wave', 'last_pos': 59, 'peak': 54, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 56, 'delta': -22, 'song': 'Anyone', 'artist': 'Demi Lovato', 'last_pos': 34, 'peak': 34, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 57, 'delta': 6, 'song': 'OUT WEST', 'artist': 'JACKBOYS Featuring Young Thug', 'last_pos': 63, 'peak': 38, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 58, 'delta': None, 'song': 'TOES', 'artist': 'DaBaby Featuring Lil Baby & Moneybagg Yo', 'last_pos': 58, 'peak': 28, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 59, 'delta': -28, 'song': 'B.I.T.C.H.', 'artist': 'Megan Thee Stallion', 'last_pos': 31, 'peak': 31, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 60, 'delta': None, 'song': 'Physical', 'artist': 'Dua Lipa', 'last_pos': None, 'peak': 60, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 61, 'delta': None, 'song': 'Mahogany', 'artist': 'Lil Wayne', 'last_pos': None, 'peak': 61, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 62, 'delta': -19, 'song': 'Nobody But You', 'artist': 'Blake Shelton Duet With Gwen Stefani', 'last_pos': 43, 'peak': 43, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 63, 'delta': -2, 'song': 'VIBEZ', 'artist': 'DaBaby', 'last_pos': 61, 'peak': 21, 'duration': 19, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 64, 'delta': 1, 'song': 'What She Wants Tonight', 'artist': 'Luke Bryan', 'last_pos': 65, 'peak': 64, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 65, 'delta': 7, 'song': 'Make Me Want To', 'artist': 'Jimmie Allen', 'last_pos': 72, 'peak': 65, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 66, 'delta': -11, 'song': 'P*$$y Fairy (OTW)', 'artist': 'Jhene Aiko', 'last_pos': 55, 'peak': 55, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 67, 'delta': 6, 'song': 'Say So', 'artist': 'Doja Cat', 'last_pos': 73, 'peak': 67, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 68, 'delta': 2, 'song': 'I Wish Grandpas Never Died', 'artist': 'Riley Green', 'last_pos': 70, 'peak': 68, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 69, 'delta': None, 'song': 'King Of My City', 'artist': 'A Boogie Wit da Hoodie', 'last_pos': None, 'peak': 69, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 70, 'delta': -10, 'song': 'Futsal Shuffle 2020', 'artist': 'Lil Uzi Vert', 'last_pos': 60, 'peak': 5, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 71, 'delta': -3, 'song': 'More Hearts Than Mine', 'artist': 'Ingrid Andress', 'last_pos': 68, 'peak': 68, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 72, 'delta': 2, 'song': 'We Back', 'artist': 'Jason Aldean', 'last_pos': 74, 'peak': 72, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 73, 'delta': 7, 'song': 'Letter To Nipsey', 'artist': 'Meek Mill Featuring Roddy Ricch', 'last_pos': 80, 'peak': 73, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 74, 'delta': -5, 'song': 'SUGAR', 'artist': 'BrockHampton', 'last_pos': 69, 'peak': 66, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 75, 'delta': None, 'song': 'Heartless', 'artist': 'Diplo Presents Thomas Wesley Featuring Morgan Wallen', 'last_pos': None, 'peak': 75, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 76, 'delta': -1, 'song': "I Hope You're Happy Now", 'artist': 'Carly Pearce & Lee Brice', 'last_pos': 75, 'peak': 75, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 77, 'delta': -10, 'song': "Ridin' Roads", 'artist': 'Dustin Lynch', 'last_pos': 67, 'peak': 47, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 78, 'delta': -12, 'song': 'No Idea', 'artist': 'Don Toliver', 'last_pos': 66, 'peak': 43, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 79, 'delta': 6, 'song': 'Before You Go', 'artist': 'Lewis Capaldi', 'last_pos': 85, 'peak': 79, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 80, 'delta': -1, 'song': 'Make No Sense', 'artist': 'YoungBoy Never Broke Again', 'last_pos': 79, 'peak': 57, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 81, 'delta': 7, 'song': 'Homemade', 'artist': 'Jake Owen', 'last_pos': 88, 'peak': 81, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 82, 'delta': -28, 'song': 'Good News', 'artist': 'Mac Miller', 'last_pos': 54, 'peak': 17, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 83, 'delta': -12, 'song': 'Start Wit Me', 'artist': 'Roddy Ricch & Gunna', 'last_pos': 71, 'peak': 56, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 84, 'delta': 3, 'song': 'Vete', 'artist': 'Bad Bunny', 'last_pos': 87, 'peak': 33, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 85, 'delta': -3, 'song': "Chasin' You", 'artist': 'Morgan Wallen', 'last_pos': 82, 'peak': 82, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 86, 'delta': -10, 'song': 'homecoming queen?', 'artist': 'Kelsea Ballerini', 'last_pos': 76, 'peak': 76, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 87, 'delta': None, 'song': 'Mama Mia', 'artist': 'Lil Wayne', 'last_pos': None, 'peak': 87, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 88, 'delta': None, 'song': 'Funeral', 'artist': 'Lil Wayne', 'last_pos': None, 'peak': 88, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 89, 'delta': None, 'song': 'Nice To Meet Ya', 'artist': 'Meghan Trainor Featuring Nicki Minaj', 'last_pos': None, 'peak': 89, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 90, 'delta': -6, 'song': 'Slow Dance In A Parking Lot', 'artist': 'Jordan Davis', 'last_pos': 84, 'peak': 84, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 91, 'delta': -1, 'song': 'Come Thru', 'artist': 'Summer Walker & Usher', 'last_pos': 90, 'peak': 42, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 92, 'delta': -11, 'song': 'Jerry Sprunger', 'artist': 'Tory Lanez & T-Pain', 'last_pos': 81, 'peak': 44, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 93, 'delta': None, 'song': 'Get Me', 'artist': 'Justin Bieber Featuring Kehlani', 'last_pos': None, 'peak': 93, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 94, 'delta': 2, 'song': 'Catch', 'artist': 'Brett Young', 'last_pos': 96, 'peak': 94, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 95, 'delta': 5, 'song': 'Dive Bar', 'artist': 'Garth Brooks & Blake Shelton', 'last_pos': 100, 'peak': 95, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 96, 'delta': -7, 'song': 'Easy', 'artist': 'DaniLeigh Featuring Chris Brown', 'last_pos': 89, 'peak': 79, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 97, 'delta': -14, 'song': 'Rare', 'artist': 'Selena Gomez', 'last_pos': 83, 'peak': 30, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 98, 'delta': -21, 'song': 'U Played', 'artist': 'MoneyBagg Yo Featuring Lil Baby', 'last_pos': 77, 'peak': 53, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 99, 'delta': -7, 'song': 'Camelot', 'artist': 'NLE Choppa', 'last_pos': 92, 'peak': 37, 'duration': 20, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 100, 'delta': None, 'song': 'ORANGE SODA', 'artist': 'Baby Keem', 'last_pos': None, 'peak': 98, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+
+
+
+2020-02-08
+{'rank': 1, 'delta': None, 'song': 'The Box', 'artist': 'Roddy Ricch', 'last_pos': 1, 'peak': 1, 'duration': 8, 'img_url': 'https://charts-static.billboard.com/img/2019/12/roddy-ricch-eqp-the-box-2k7-53x53.jpg', 'img_filename': 'd853550349726a31fcb7e3c5e98d32a1b32aa9c3.jpg'}
+{'rank': 2, 'delta': None, 'song': 'Life Is Good', 'artist': 'Future Featuring Drake', 'last_pos': 2, 'peak': 2, 'duration': 3, 'img_url': 'https://charts-static.billboard.com/img/2020/01/future-tsu-life-is-good-rko-53x53.jpg', 'img_filename': '265e340dce9d4cd0359ae6e2dd3c70d64e9226e7.jpg'}
+{'rank': 3, 'delta': 1, 'song': 'Circles', 'artist': 'Post Malone', 'last_pos': 4, 'peak': 1, 'duration': 22, 'img_url': 'https://charts-static.billboard.com/img/2019/09/post-malone-tp6-circles-sb0-53x53.jpg', 'img_filename': '9429516cab5989575ee65590dcbcad8996c34cdb.jpg'}
+{'rank': 4, 'delta': 1, 'song': 'Memories', 'artist': 'Maroon 5', 'last_pos': 5, 'peak': 2, 'duration': 19, 'img_url': 'https://charts-static.billboard.com/img/2019/09/maroon-5-vhb-memories-cnj-53x53.jpg', 'img_filename': 'cd7850ef83efe450007d066e0d7f2dfd20080d08.jpg'}
+{'rank': 5, 'delta': 3, 'song': 'Someone You Loved', 'artist': 'Lewis Capaldi', 'last_pos': 8, 'peak': 1, 'duration': 38, 'img_url': 'https://charts-static.billboard.com/img/2019/03/lewis-capaldi-s2h-someone-you-loved-em0-53x53.jpg', 'img_filename': 'c4189916c8f870f94a07455efc88c21e4cfbd76c.jpg'}
+{'rank': 6, 'delta': None, 'song': '10,000 Hours', 'artist': 'Dan + Shay & Justin Bieber', 'last_pos': 6, 'peak': 4, 'duration': 17, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 7, 'delta': None, 'song': 'Dance Monkey', 'artist': 'Tones And I', 'last_pos': 7, 'peak': 7, 'duration': 17, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 8, 'delta': 1, 'song': 'Roxanne', 'artist': 'Arizona Zervas', 'last_pos': 9, 'peak': 4, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 9, 'delta': 6, 'song': "Don't Start Now", 'artist': 'Dua Lipa', 'last_pos': 15, 'peak': 9, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 10, 'delta': 13, 'song': 'everything i wanted', 'artist': 'Billie Eilish', 'last_pos': 23, 'peak': 8, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 11, 'delta': -1, 'song': 'Lose You To Love Me', 'artist': 'Selena Gomez', 'last_pos': 10, 'peak': 1, 'duration': 15, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 12, 'delta': -9, 'song': 'Godzilla', 'artist': 'Eminem Featuring Juice WRLD', 'last_pos': 3, 'peak': 3, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 13, 'delta': -1, 'song': 'Good As Hell', 'artist': 'Lizzo', 'last_pos': 12, 'peak': 3, 'duration': 23, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 14, 'delta': -1, 'song': 'BOP', 'artist': 'DaBaby', 'last_pos': 13, 'peak': 11, 'duration': 18, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 15, 'delta': -4, 'song': 'Yummy', 'artist': 'Justin Bieber', 'last_pos': 11, 'peak': 2, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 16, 'delta': -2, 'song': "Ballin'", 'artist': 'Mustard & Roddy Ricch', 'last_pos': 14, 'peak': 11, 'duration': 28, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 17, 'delta': 24, 'song': 'Bad Guy', 'artist': 'Billie Eilish', 'last_pos': 41, 'peak': 1, 'duration': 44, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 18, 'delta': 3, 'song': 'Blinding Lights', 'artist': 'The Weeknd', 'last_pos': 21, 'peak': 11, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 19, 'delta': None, 'song': 'Heartless', 'artist': 'The Weeknd', 'last_pos': 19, 'peak': 1, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 20, 'delta': -3, 'song': 'HIGHEST IN THE ROOM', 'artist': 'Travis Scott', 'last_pos': 17, 'peak': 1, 'duration': 17, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 21, 'delta': 1, 'song': 'The Bones', 'artist': 'Maren Morris', 'last_pos': 22, 'peak': 21, 'duration': 19, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 22, 'delta': -2, 'song': 'High Fashion', 'artist': 'Roddy Ricch Featuring Mustard', 'last_pos': 20, 'peak': 20, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 23, 'delta': 4, 'song': 'Hot Girl Bummer', 'artist': 'blackbear', 'last_pos': 27, 'peak': 23, 'duration': 20, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 24, 'delta': 1, 'song': 'No Guidance', 'artist': 'Chris Brown Featuring Drake', 'last_pos': 25, 'peak': 5, 'duration': 34, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 25, 'delta': 4, 'song': 'Woah', 'artist': 'Lil Baby', 'last_pos': 29, 'peak': 16, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 26, 'delta': 4, 'song': 'Senorita', 'artist': 'Shawn Mendes & Camila Cabello', 'last_pos': 30, 'peak': 1, 'duration': 32, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 27, 'delta': -3, 'song': 'Trampoline', 'artist': 'SHAED', 'last_pos': 24, 'peak': 13, 'duration': 35, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 28, 'delta': -2, 'song': 'You should be sad', 'artist': 'Halsey', 'last_pos': 26, 'peak': 26, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 29, 'delta': 3, 'song': 'Adore You', 'artist': 'Harry Styles', 'last_pos': 32, 'peak': 24, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 30, 'delta': -14, 'song': 'What A Man Gotta Do', 'artist': 'Jonas Brothers', 'last_pos': 16, 'peak': 16, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 31, 'delta': None, 'song': 'B.I.T.C.H.', 'artist': 'Megan Thee Stallion', 'last_pos': None, 'peak': 31, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 32, 'delta': 11, 'song': 'Truth Hurts', 'artist': 'Lizzo', 'last_pos': 43, 'peak': 1, 'duration': 39, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 33, 'delta': 4, 'song': 'Falling', 'artist': 'Trevor Daniel', 'last_pos': 37, 'peak': 31, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 34, 'delta': None, 'song': 'Anyone', 'artist': 'Demi Lovato', 'last_pos': None, 'peak': 34, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 35, 'delta': 5, 'song': 'My Oh My', 'artist': 'Camila Cabello Featuring DaBaby', 'last_pos': 40, 'peak': 35, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 36, 'delta': -2, 'song': 'Suicidal', 'artist': 'YNW Melly & Juice WRLD', 'last_pos': 34, 'peak': 34, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 37, 'delta': -2, 'song': 'Only Human', 'artist': 'Jonas Brothers', 'last_pos': 35, 'peak': 18, 'duration': 32, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 38, 'delta': -5, 'song': 'Sum 2 Prove', 'artist': 'Lil Baby', 'last_pos': 33, 'peak': 16, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 39, 'delta': 10, 'song': 'Sucker', 'artist': 'Jonas Brothers', 'last_pos': 49, 'peak': 1, 'duration': 43, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 40, 'delta': 6, 'song': 'One Man Band', 'artist': 'Old Dominion', 'last_pos': 46, 'peak': 20, 'duration': 23, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 41, 'delta': 4, 'song': "Even Though I'm Leaving", 'artist': 'Luke Combs', 'last_pos': 45, 'peak': 11, 'duration': 22, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 42, 'delta': 9, 'song': 'Heartache Medication', 'artist': 'Jon Pardi', 'last_pos': 51, 'peak': 42, 'duration': 18, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 43, 'delta': 33, 'song': 'Nobody But You', 'artist': 'Blake Shelton Duet With Gwen Stefani', 'last_pos': 76, 'peak': 43, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 44, 'delta': None, 'song': "I Don't Care", 'artist': 'Ed Sheeran & Justin Bieber', 'last_pos': 44, 'peak': 2, 'duration': 35, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 45, 'delta': -3, 'song': 'Hot', 'artist': 'Young Thug Featuring Gunna', 'last_pos': 42, 'peak': 11, 'duration': 24, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 46, 'delta': 7, 'song': 'Kinfolks', 'artist': 'Sam Hunt', 'last_pos': 53, 'peak': 46, 'duration': 16, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 47, 'delta': None, 'song': 'Bandit', 'artist': 'Juice WRLD & YoungBoy Never Broke Again', 'last_pos': 47, 'peak': 10, 'duration': 17, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 48, 'delta': 2, 'song': 'Juicy', 'artist': 'Doja Cat & Tyga', 'last_pos': 50, 'peak': 45, 'duration': 14, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 49, 'delta': -10, 'song': 'Panini', 'artist': 'Lil Nas X', 'last_pos': 39, 'peak': 5, 'duration': 32, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 50, 'delta': 6, 'song': 'South Of The Border', 'artist': 'Ed Sheeran Featuring Camila Cabello & Cardi B', 'last_pos': 56, 'peak': 50, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 51, 'delta': 4, 'song': 'Tusa', 'artist': 'Karol G & Nicki Minaj', 'last_pos': 55, 'peak': 51, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 52, 'delta': 14, 'song': 'Homesick', 'artist': 'Kane Brown', 'last_pos': 66, 'peak': 52, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 53, 'delta': 9, 'song': 'RITMO (Bad Boys For Life)', 'artist': 'The Black Eyed Peas X J Balvin', 'last_pos': 62, 'peak': 53, 'duration': 10, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 54, 'delta': -36, 'song': 'Good News', 'artist': 'Mac Miller', 'last_pos': 18, 'peak': 17, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 55, 'delta': 3, 'song': 'P*$$y Fairy (OTW)', 'artist': 'Jhene Aiko', 'last_pos': 58, 'peak': 55, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 56, 'delta': 17, 'song': 'I Hope', 'artist': 'Gabby Barrett', 'last_pos': 73, 'peak': 56, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 57, 'delta': 13, 'song': 'Slide', 'artist': 'H.E.R. Featuring YG', 'last_pos': 70, 'peak': 57, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 58, 'delta': 7, 'song': 'TOES', 'artist': 'DaBaby Featuring Lil Baby & Moneybagg Yo', 'last_pos': 65, 'peak': 28, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 59, 'delta': 13, 'song': 'Heart On Ice', 'artist': 'Rod Wave', 'last_pos': 72, 'peak': 54, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 60, 'delta': -1, 'song': 'Futsal Shuffle 2020', 'artist': 'Lil Uzi Vert', 'last_pos': 59, 'peak': 5, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 61, 'delta': 8, 'song': 'VIBEZ', 'artist': 'DaBaby', 'last_pos': 69, 'peak': 21, 'duration': 18, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 62, 'delta': 17, 'song': 'BEST ON EARTH', 'artist': 'Russ & BIA', 'last_pos': 79, 'peak': 62, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 63, 'delta': 22, 'song': 'OUT WEST', 'artist': 'JACKBOYS Featuring Young Thug', 'last_pos': 85, 'peak': 38, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 64, 'delta': -10, 'song': 'Graveyard', 'artist': 'Halsey', 'last_pos': 54, 'peak': 34, 'duration': 20, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 65, 'delta': 25, 'song': 'What She Wants Tonight', 'artist': 'Luke Bryan', 'last_pos': 90, 'peak': 65, 'duration': 6, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 66, 'delta': 11, 'song': 'No Idea', 'artist': 'Don Toliver', 'last_pos': 77, 'peak': 43, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 67, 'delta': -7, 'song': "Ridin' Roads", 'artist': 'Dustin Lynch', 'last_pos': 60, 'peak': 47, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 68, 'delta': 18, 'song': 'More Hearts Than Mine', 'artist': 'Ingrid Andress', 'last_pos': 86, 'peak': 68, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 69, 'delta': 9, 'song': 'SUGAR', 'artist': 'BrockHampton', 'last_pos': 78, 'peak': 66, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 70, 'delta': 17, 'song': 'I Wish Grandpas Never Died', 'artist': 'Riley Green', 'last_pos': 87, 'peak': 70, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 71, 'delta': 3, 'song': 'Start Wit Me', 'artist': 'Roddy Ricch & Gunna', 'last_pos': 74, 'peak': 56, 'duration': 11, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 72, 'delta': 16, 'song': 'Make Me Want To', 'artist': 'Jimmie Allen', 'last_pos': 88, 'peak': 72, 'duration': 5, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 73, 'delta': 19, 'song': 'Say So', 'artist': 'Doja Cat', 'last_pos': 92, 'peak': 73, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 74, 'delta': 21, 'song': 'We Back', 'artist': 'Jason Aldean', 'last_pos': 95, 'peak': 72, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 75, 'delta': 22, 'song': "I Hope You're Happy Now", 'artist': 'Carly Pearce & Lee Brice', 'last_pos': 97, 'peak': 75, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 76, 'delta': 20, 'song': 'homecoming queen?', 'artist': 'Kelsea Ballerini', 'last_pos': 96, 'peak': 76, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 77, 'delta': 5, 'song': 'U Played', 'artist': 'MoneyBagg Yo Featuring Lil Baby', 'last_pos': 82, 'peak': 53, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 78, 'delta': -40, 'song': 'Blue World', 'artist': 'Mac Miller', 'last_pos': 38, 'peak': 38, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 79, 'delta': 19, 'song': 'Make No Sense', 'artist': 'YoungBoy Never Broke Again', 'last_pos': 98, 'peak': 57, 'duration': 12, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 80, 'delta': None, 'song': 'Letter To Nipsey', 'artist': 'Meek Mill Featuring Roddy Ricch', 'last_pos': None, 'peak': 80, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 81, 'delta': None, 'song': 'Jerry Sprunger', 'artist': 'Tory Lanez & T-Pain', 'last_pos': None, 'peak': 44, 'duration': 8, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 82, 'delta': None, 'song': "Chasin' You", 'artist': 'Morgan Wallen', 'last_pos': None, 'peak': 82, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 83, 'delta': -2, 'song': 'Rare', 'artist': 'Selena Gomez', 'last_pos': 81, 'peak': 30, 'duration': 3, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 84, 'delta': None, 'song': 'Slow Dance In A Parking Lot', 'artist': 'Jordan Davis', 'last_pos': None, 'peak': 84, 'duration': 4, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 85, 'delta': None, 'song': 'Before You Go', 'artist': 'Lewis Capaldi', 'last_pos': None, 'peak': 85, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 86, 'delta': -55, 'song': 'Those Kinda Nights', 'artist': 'Eminem Featuring Ed Sheeran', 'last_pos': 31, 'peak': 31, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 87, 'delta': None, 'song': 'Vete', 'artist': 'Bad Bunny', 'last_pos': None, 'peak': 33, 'duration': 9, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 88, 'delta': None, 'song': 'Homemade', 'artist': 'Jake Owen', 'last_pos': None, 'peak': 88, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 89, 'delta': 10, 'song': 'Easy', 'artist': 'DaniLeigh Featuring Chris Brown', 'last_pos': 99, 'peak': 79, 'duration': 13, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 90, 'delta': None, 'song': 'Come Thru', 'artist': 'Summer Walker & Usher', 'last_pos': None, 'peak': 42, 'duration': 7, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 91, 'delta': -63, 'song': 'Darkness', 'artist': 'Eminem', 'last_pos': 28, 'peak': 28, 'duration': 2, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 92, 'delta': None, 'song': 'Camelot', 'artist': 'NLE Choppa', 'last_pos': None, 'peak': 37, 'duration': 19, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 93, 'delta': None, 'song': 'Underdog', 'artist': 'Alicia Keys', 'last_pos': None, 'peak': 93, 'duration': 1, 'img_url': '', 'img_filename': 'da39a3ee5e6b4b0d3255bfef95601890afd80709.jpg'}
+{'rank': 94, 'delta': None, 'song': 'First Man', 'artist': 

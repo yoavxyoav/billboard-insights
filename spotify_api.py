@@ -54,7 +54,10 @@ class Spotify:
         return track_dict, audio_analysis_dict
 
 
-# x = Spotify('led zeppelin', 'stairway to heaven')
-# a, b = x.get_value_dict()
-# print(a)
-# print(a.keys())
+x = Spotify('the weekend', 'blinding lights', 'whatever')
+
+a, b = x.get_value_dict()
+print(a)
+print(a.keys())
+print(b)
+print(b.keys())
